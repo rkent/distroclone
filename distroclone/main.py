@@ -17,6 +17,7 @@
 
 import argparse
 from io import StringIO
+import logging
 import os
 import sys
 import yaml
@@ -29,10 +30,14 @@ from vcstool.commands.import_ import main as import_main
 
 INDEX_URL = 'https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml'
 
+logger = logging.getLogger(__name__)
+logging.basicConfig()
+logger.setLevel(logging.INFO)
 
 def main(args=None):
     parser = get_parser()
     config = parser.parse_args(args)
+    logger.info(f'Cloning distro {config.distro} to path {config.path}')
 
     output_dir = os.path.join(config.path, config.distro)
     os.makedirs(output_dir, exist_ok=True)
@@ -41,6 +46,7 @@ def main(args=None):
     dist_cache = get_distribution_cache(index, config.distro)
     dist_file = dist_cache.distribution_file
     repositories = dist_file.repositories
+    logger.info(f'Found {len(repositories)} repositories')
 
     vcs_repos = {'repositories': {}}
     for repo in repositories.values():
@@ -60,14 +66,11 @@ def main(args=None):
                 'version': clone_repo.version
             }
 
-    # print(vcs_repos)
-    # sys.stdin = StringIO(yaml.dump(vcs_repos))
-    # import_main([output_dir])
+    sys.stdin = StringIO(yaml.dump(vcs_repos))
+    import_main([output_dir])
 
     # Locate any missing packages
-    release_packages_path = os.path.join(output_dir, 'release_packages')
-    subfolders = [ f.path for f in os.scandir(output_dir) if f.is_dir() ]
-    # print(subfolders)
+    logger.info(f'Locating and cloning from release_repository any missing packages')
     packages = find_packages_allowing_duplicates(output_dir)
     packages_set = set()
     vcs_repos = {'repositories': {}}
@@ -81,20 +84,18 @@ def main(args=None):
             continue
         for package_name in release.package_names:
             if not package_name in packages_set:
-                print(f'Did not find {package_name}')
-                # print(release.type, release.url, release.version)
+                logger.warning(f'Did not find {package_name}, adding to reclone list')
                 vcs_repos['repositories'][release.name] = {
                     'type': release.type,
                     'url': release.url,
                     'version': f'release/{config.distro}/{package_name}'
                 }
     if vcs_repos['repositories']:
-        print(vcs_repos)
+        logger.info(f'Recloning {len(vcs_repos["repositories"])} packages')
         sys.stdin = StringIO(yaml.dump(vcs_repos))
         import_main([output_dir_release])
-
-
-    #print(packages_set)
+    else:
+        logger.info('No missing packages found')
 
 
 def get_parser():
