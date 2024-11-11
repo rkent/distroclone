@@ -51,7 +51,7 @@ def main(args=None):
 
     logger.info(f'Cloning {len(vcs_repos["repositories"])} repositories')
     sys.stdin = StringIO(yaml.dump(vcs_repos))
-    import_main([output_dir])
+    import_main(['--force', output_dir])
 
     # Locate any missing packages
     logger.info(f'Locating and cloning from release_repository any missing packages')
@@ -147,6 +147,7 @@ def get_extended_distribution_cache(index, config, logger=None):
     yaml_str = get_distribution_cache_string(index, config.distro)
     data = yaml.safe_load(yaml_str)
     repositories= data['distribution_file'][0]['repositories']
+    repoMerge = None
 
     # allow config to modify values of repositories
     if config and config.config_file:
