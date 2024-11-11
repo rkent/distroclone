@@ -22,17 +22,15 @@ import os
 import sys
 import yaml
 
+logging.basicConfig(format='[%(name)s] [%(levelname)s] %(message)s', level=logging.INFO)
+logger = logging.getLogger('distroclone')
+
 from catkin_pkg.packages import find_packages_allowing_duplicates
 from rosdistro import get_index
-from rosdistro import get_distribution_cache
+from rosdistro import get_index_url
+from rosdistro import get_distribution_cache_string
 from vcstool.commands.import_ import main as import_main
 
-
-INDEX_URL = 'https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml'
-
-logger = logging.getLogger(__name__)
-logging.basicConfig()
-logger.setLevel(logging.INFO)
 
 def main(args=None):
     parser = get_parser()
@@ -42,30 +40,16 @@ def main(args=None):
     output_dir = os.path.join(config.path, config.distro)
     os.makedirs(output_dir, exist_ok=True)
 
-    index = get_index(INDEX_URL)
-    dist_cache = get_distribution_cache(index, config.distro)
-    dist_file = dist_cache.distribution_file
-    repositories = dist_file.repositories
-    logger.info(f'Found {len(repositories)} repositories')
+    index = get_index(get_index_url())
+    repositories = get_extended_distribution_cache(index, config, logger=logger)
 
     vcs_repos = {'repositories': {}}
-    for repo in repositories.values():
-        source = repo.source_repository
-        release = repo.release_repository
-        doc = repo.doc_repository
-        if source:
-            clone_repo = source
-        elif doc:
-            clone_repo = doc
-        else:
-            clone_repo = None
+    for key, repo in repositories.items():
+        clone_repo = repo.get('source', repo.get('doc'))
         if clone_repo:
-            vcs_repos['repositories'][clone_repo.name] = {
-                'type': clone_repo.type,
-                'url': clone_repo.url,
-                'version': clone_repo.version
-            }
+            vcs_repos['repositories'][key] = clone_repo
 
+    logger.info(f'Cloning {len(vcs_repos['repositories'])} repositories')
     sys.stdin = StringIO(yaml.dump(vcs_repos))
     import_main([output_dir])
 
@@ -78,18 +62,17 @@ def main(args=None):
     os.makedirs(output_dir_release, exist_ok=True)
     for package in packages.values():
         packages_set.add(package.name)
-    for repo in repositories.values():
-        release = repo.release_repository
-        if not release:
-            continue
-        for package_name in release.package_names:
-            if not package_name in packages_set:
-                logger.warning(f'Did not find {package_name}, adding to reclone list')
-                vcs_repos['repositories'][release.name] = {
-                    'type': release.type,
-                    'url': release.url,
-                    'version': f'release/{config.distro}/{package_name}'
-                }
+    for key, repo in repositories.items():
+        release = repo.get('release')
+        if release and 'packages' in release:
+            for package_name in release['packages']:
+                if not package_name in packages_set:
+                    logger.warning(f'Did not find {package_name}, adding to reclone list')
+                    vcs_repos['repositories'][package_name] = {
+                        'type': 'git',
+                        'url': release['url'],
+                        'version': f'release/{config.distro}/{package_name}'
+                    }
     if vcs_repos['repositories']:
         logger.info(f'Recloning {len(vcs_repos["repositories"])} packages')
         sys.stdin = StringIO(yaml.dump(vcs_repos))
@@ -101,11 +84,99 @@ def main(args=None):
 def get_parser():
     parser = argparse.ArgumentParser(
         prog='distroclone',
-        description='Clone a full rosdistro',
+        description='Clone a full rosdistro.',
     )
     parser.add_argument('-d', '--distro', help='ros distro name (ie rolling)', default='rolling')
     parser.add_argument('-p', '--path', help='path to output repos to', default='rosdistro')
+    parser.add_argument('-c', '--config_file', help='config file name (config.yaml)', default=None)
+    parser.add_argument('-m', '--max-repos', type=int, help='Maximum repos to clone, -1 for no limit', default=-1)
+
+    '''
+    Example config.yaml:
+
+launch_ros:
+  source:
+    type: git
+    url: https://github.com/rkent/launch_ros.git
+    version: fix-rosdoc2
+
+    '''
     return parser
+
+def merge(a: dict, b: dict, path=[], logger=None):
+    """Deep merge dict b into dict a (in place)
+
+    with: inner1 = {'i1': 11, 'i2': 12, 'i3': 13}
+    inner2 = {'i1': 21, 'i2': 12, 'i4': 24}
+    outer1 = {'a': inner1, 'c': {'cc'}}
+    outer2 = {'a': inner2, 'b': 2}
+    merge(outer1, outer2)
+    print(outer1)
+
+    result is:
+    {'a': {'i1': 21, 'i2': 12, 'i3': 13, 'i4': 24}, 'c': {'cc'}, 'b': 2}
+    """
+    # Adapted from
+    # https://stackoverflow.com/questions/7204805/deep-merge-dictionaries-of-dictionaries-in-python/7205107#7205107
+    for key in b:
+        if key in a:
+            if isinstance(a[key], dict) and isinstance(b[key], dict):
+                merge(a[key], b[key], path + [str(key)])
+            elif type(a[key]) == type(b[key]):
+                a[key] = b[key]
+            else:
+                conflict = '.'.join(path + [str(key)]) + f': {a[key]} vs {b[key]}'
+                if logger:
+                    logger.warning(f'Dictionary merge conflict at {conflict}')
+                else:
+                    raise RuntimeError('Merge conflict at ' + conflict)
+        else:
+            a[key] = b[key]
+    return a
+
+
+def read_cfg_file(fname):
+    try:
+        with open(fname) as f:
+            return yaml.safe_load(f.read())
+    except (IOError, KeyError, yaml.YAMLError):
+        return None
+
+
+def get_extended_distribution_cache(index, config, logger=None):
+    yaml_str = get_distribution_cache_string(index, config.distro)
+    data = yaml.safe_load(yaml_str)
+    repositories= data['distribution_file'][0]['repositories']
+
+    # allow config to modify values of repositories
+    if config and config.config_file:
+        repoMerge = read_cfg_file(config.config_file)
+        if not repoMerge:
+            if logger:
+                logger.warning(f'Could not find repo merge file <{config.config_file}>')
+            else:
+                raise RuntimeError(f'Could not find repo merge file {config.config_file}')
+        if repoMerge:
+            logger.info(f'Merging repos {list(repoMerge.keys())}')
+            merge(repositories, repoMerge, logger=logger)
+
+    # Limit length of repositories, mostly a debug features
+    if config and config.max_repos >= 0:
+        if logger:
+            logger.info(f'Limiting cloned repos count to {config.max_repos}')
+        limited_repositories = {}
+        count = 0
+        # Always start with any merged repos
+        keys = (list(repoMerge.keys()) if repoMerge else []) + list(repositories.keys())
+
+        for key in keys:
+            limited_repositories[key] = repositories[key]
+            count += 1
+            if count >= config.max_repos:
+                break
+        repositories = limited_repositories
+
+    return repositories
 
 if __name__ == '__main__':
     main()
