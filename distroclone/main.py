@@ -49,7 +49,7 @@ def main(args=None):
         if clone_repo:
             vcs_repos['repositories'][key] = clone_repo
 
-    logger.info(f'Cloning {len(vcs_repos['repositories'])} repositories')
+    logger.info(f'Cloning {len(vcs_repos["repositories"])} repositories')
     sys.stdin = StringIO(yaml.dump(vcs_repos))
     import_main([output_dir])
 
