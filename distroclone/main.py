@@ -44,65 +44,12 @@ def main(args=None):
 
     index = get_index(get_index_url())
     repositories = get_extended_distribution_cache(index, config, logger=logger)
-    existing_directories = os.listdir(output_dir)
-    if '_release' in existing_directories:
-        existing_directories.remove('_release')
-    for name in existing_directories:
-        if name not in repositories:
-            directory = os.path.join(output_dir, name)
-            logger.info(f'Did not find {directory}, removing')
-            shutil.rmtree(directory, ignore_errors=False)
 
     vcs_repos = {'repositories': {}}
     for key, repo in repositories.items():
         clone_repo = repo.get('source', repo.get('doc'))
-        if clone_repo:
-            vcs_repos['repositories'][key] = clone_repo
-
-    logger.info(f'Cloning {len(vcs_repos["repositories"])} repositories')
-    sys.stdin = StringIO(yaml.dump(vcs_repos))
-    import_main(['--force', output_dir])
-    logger.info('pulling changes into repos')
-    pull_main([output_dir])
-
-    # Locate any missing packages
-    logger.info(f'Locating and cloning from release_repository any missing packages')
-    packages = find_packages_allowing_duplicates(output_dir, exclude_paths=[os.path.join(output_dir, '_release')])
-    packages_set = set()
-    for package in packages.values():
-        packages_set.add(package.name)
-
-    vcs_repos = {'repositories': {}}
-    output_dir_release = os.path.join(config.path, '_release')
-    os.makedirs(output_dir_release, exist_ok=True)
-    existing_directories = os.listdir(output_dir_release)
-
-    for key, repo in repositories.items():
-        release = repo.get('release')
-        if release and 'packages' in release:
-            for package_name in release['packages']:
-                if package_name not in packages_set:
-                    logger.warning(f'Did not find {package_name}, adding to reclone list')
-                    vcs_repos['repositories'][package_name] = {
-                        'type': 'git',
-                        'url': release['url'],
-                        'version': f'release/{config.distro}/{package_name}'
-                    }
-                    packages_set.add(package_name)
-    if vcs_repos['repositories']:
-        logger.info(f'Recloning {len(vcs_repos["repositories"])} packages')
-        sys.stdin = StringIO(yaml.dump(vcs_repos))
-        import_main(['--force', '--repos', output_dir_release])
-        pull_main(['--repos', output_dir_release])
-    else:
-        logger.info('No missing packages found')
-
-    # delete any packages that are not in current release
-    for package_name in existing_directories:
-        if package_name not in packages_set:
-            logger.info(f'Did not find {package_name}, removing')
-            directory = os.path.join(output_dir_release, package_name)
-            shutil.rmtree(directory, ignore_errors=False)
+        if not clone_repo and 'release' in repo:
+            print(f'only release: {key=}')
 
 
 def get_parser():
