@@ -46,10 +46,16 @@ def main(args=None):
     repositories = get_extended_distribution_cache(index, config, logger=logger)
 
     vcs_repos = {'repositories': {}}
+    no_docs = set()
     for key, repo in repositories.items():
-        clone_repo = repo.get('source', repo.get('doc'))
-        if not clone_repo and 'release' in repo:
-            print(f'only release: {key=}')
+        has_type = {}
+        for type in ['source', 'doc', 'release']:
+            has_type[type] = type in repo
+        if has_type['source'] or has_type['release']:
+            if not has_type['doc']:
+                print(f'missing doc: {key=}')
+                no_docs.add(key)
+    print(sorted(no_docs))
 
 
 def get_parser():
