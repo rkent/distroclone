@@ -1,0 +1,5969 @@
+---
+repositories:
+  2fast2lamaa:
+    doc:
+      type: git
+      url: https://github.com/uts-ri/2fast2lamaa.git
+      version: main
+  3d_slam_and_object_detection:
+    doc:
+      type: git
+      url: https://github.com/r-shima/3d_slam_and_object_detection.git
+      version: main
+  3dvehicledynamicsstateestimation:
+    doc:
+      type: git
+      url: https://github.com/tumftm/3dvehicledynamicsstateestimation.git
+      version: main
+  4d-radar-odom:
+    doc:
+      type: git
+      url: https://github.com/robotics-upo/4d-radar-odom.git
+      version: master
+  abb_libegm:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/abb_libegm.git
+      version: master
+  abb_librws:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/abb_librws.git
+      version: master
+  abb_robot_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/abb_robot_driver.git
+      version: master
+  abb_ros2:
+    doc:
+      type: git
+      url: https://github.com/picknikrobotics/abb_ros2.git
+      version: rolling
+  acceleration_examples:
+    doc:
+      type: git
+      url: https://github.com/ros-acceleration/acceleration_examples.git
+      version: main
+  acdc:
+    doc:
+      type: git
+      url: https://github.com/ika-rwth-aachen/acdc.git
+      version: main
+  ackerman-car-ros2:
+    doc:
+      type: git
+      url: https://github.com/zhaokexue/ackerman-car-ros2.git
+      version: main
+  ackermann-odometry:
+    doc:
+      type: git
+      url: https://github.com/aposhian/ackermann-odometry.git
+      version: master
+  action_bridge:
+    doc:
+      type: git
+      url: https://github.com/hsd-dev/action_bridge.git
+      version: master
+  active_graph_slam:
+    doc:
+      type: git
+      url: https://github.com/julioplaced/active_graph_slam.git
+      version: main
+  ad_with_lanelet2:
+    doc:
+      type: git
+      url: https://github.com/abanglzu/ad_with_lanelet2.git
+      version: master
+  advanced_manipulation_moveit:
+    doc:
+      type: git
+      url: https://github.com/pablomalvido/advanced_manipulation_moveit.git
+      version: main
+  afbr-s50-api:
+    doc:
+      type: git
+      url: https://github.com/broadcom/afbr-s50-api.git
+      version: main
+  agent:
+    doc:
+      type: git
+      url: https://github.com/alec-bell/agent.git
+      version: humble
+  agibot_x1_infer:
+    doc:
+      type: git
+      url: https://github.com/agibottech/agibot_x1_infer.git
+      version: main
+  aichallenge2022-sim:
+    doc:
+      type: git
+      url: https://github.com/automotiveaichallenge/aichallenge2022-sim.git
+      version: main
+  aichallenge2023-integ:
+    doc:
+      type: git
+      url: https://github.com/automotiveaichallenge/aichallenge2023-integ.git
+      version: main
+  aichallenge2023-racing:
+    doc:
+      type: git
+      url: https://github.com/automotiveaichallenge/aichallenge2023-racing.git
+      version: main
+  aimrt:
+    doc:
+      type: git
+      url: https://github.com/aimrt/aimrt.git
+      version: main
+  airship:
+    doc:
+      type: git
+      url: https://github.com/airs-cuhk/airship.git
+      version: main
+  airspeed:
+    doc:
+      type: git
+      url: https://github.com/airs-cuhk/airspeed.git
+      version: main
+  airstack:
+    doc:
+      type: git
+      url: https://github.com/castacks/airstack.git
+      version: develop
+  akabot:
+    doc:
+      type: git
+      url: https://github.com/thenoobinventor/akabot.git
+      version: main
+  alexbotmini_hardware:
+    doc:
+      type: git
+      url: https://github.com/alexhuge1/alexbotmini_hardware.git
+      version: main
+  aliengo_delivery:
+    doc:
+      type: git
+      url: https://github.com/hgaren/aliengo_delivery.git
+      version: master
+  allan_ros2:
+    doc:
+      type: git
+      url: https://github.com/cruxdevstuff/allan_ros2.git
+      version: main
+  amazon-eks-autonomous-driving-data-service:
+    doc:
+      type: git
+      url: https://github.com/aws-samples/amazon-eks-autonomous-driving-data-service.git
+      version: master
+  amigo_ros2:
+    doc:
+      type: git
+      url: https://github.com/eppl-erau-db/amigo_ros2.git
+      version: main
+  an-overview-on-recent-advances-in-path-integral-control:
+    doc:
+      type: git
+      url: https://github.com/i-asl/an-overview-on-recent-advances-in-path-integral-control.git
+      version: main
+  angler:
+    doc:
+      type: git
+      url: https://github.com/robotic-decision-making-lab/angler.git
+      version: main
+  anycar:
+    doc:
+      type: git
+      url: https://github.com/lecar-lab/anycar.git
+      version: main
+  apollo-platform:
+    doc:
+      type: git
+      url: https://github.com/apolloauto/apollo-platform.git
+      version: master
+  apriltag_docking:
+    doc:
+      type: git
+      url: https://github.com/adlink-ros/apriltag_docking.git
+      version: foxy-devel
+  apriltag_localization:
+    doc:
+      type: git
+      url: https://github.com/lifuguan/apriltag_localization.git
+      version: master
+  apriltag_ros:
+    doc:
+      type: git
+      url: https://github.com/adlink-ros/apriltag_ros.git
+      version: jazzy-devel
+  ar3_ros:
+    doc:
+      type: git
+      url: https://github.com/rif-robotics/ar3_ros.git
+      version: main
+  arducam_tof_camera:
+    doc:
+      type: git
+      url: https://github.com/arducam/arducam_tof_camera.git
+      version: main
+  arduino-bot:
+    doc:
+      type: git
+      url: https://github.com/antobrandi/arduino-bot.git
+      version: main
+  ardupilot_gazebo:
+    doc:
+      type: git
+      url: https://github.com/ardupilot/ardupilot_gazebo.git
+      version: main
+  ardupilot_gz:
+    doc:
+      type: git
+      url: https://github.com/ardupilot/ardupilot_gz.git
+      version: main
+  ariac:
+    doc:
+      type: git
+      url: https://github.com/usnistgov/ariac.git
+      version: ariac2024
+  arlobot:
+    doc:
+      type: git
+      url: https://github.com/chrisl8/arlobot.git
+      version: jazzy
+  arm_api2:
+    doc:
+      type: git
+      url: https://github.com/croboticsolutions/arm_api2.git
+      version: master
+  ars548_ros:
+    doc:
+      type: git
+      url: https://github.com/robotics-upo/ars548_ros.git
+      version: master
+  ars_408_ros_toolkit:
+    doc:
+      type: git
+      url: https://github.com/nacayu/ars_408_ros_toolkit.git
+      version: main
+  ars_40x:
+    doc:
+      type: git
+      url: https://github.com/project-manas/ars_40x.git
+      version: master
+  artificial-intelligence-for-robotics-2e:
+    doc:
+      type: git
+      url: https://github.com/packtpublishing/artificial-intelligence-for-robotics-2e.git
+      version: main
+  artiv:
+    doc:
+      type: git
+      url: https://github.com/shinkansan/artiv.git
+      version: master
+  asv:
+    doc:
+      type: git
+      url: https://github.com/aqualinkorg/asv.git
+      version: master
+  atf:
+    doc:
+      type: git
+      url: https://github.com/floweisshardt/atf.git
+      version: master
+  atlas-mujoco-ros2:
+    doc:
+      type: git
+      url: https://github.com/mindspaceinc/atlas-mujoco-ros2.git
+      version: main
+  atos:
+    doc:
+      type: git
+      url: https://github.com/ri-se/atos.git
+      version: dev
+  atreus:
+    doc:
+      type: git
+      url: https://github.com/leander-dsouza/atreus.git
+      version: ros2
+  aubo_robot:
+    doc:
+      type: git
+      url: https://github.com/auborobot/aubo_robot.git
+      version: Noetic
+  aubo_robot_ros2:
+    doc:
+      type: git
+      url: https://github.com/xieshaosong/aubo_robot_ros2.git
+      version: jazzy-arcs
+  aubo_ros2_driver:
+    doc:
+      type: git
+      url: https://github.com/auborobot/aubo_ros2_driver.git
+      version: main
+  aubo_ros_driver:
+    doc:
+      type: git
+      url: https://github.com/auborobot/aubo_ros_driver.git
+      version: main
+  audioros:
+    doc:
+      type: git
+      url: https://github.com/lcav/audioros.git
+      version: master
+  auna:
+    doc:
+      type: git
+      url: https://github.com/harunteper/auna.git
+      version: main
+  auto-apms:
+    doc:
+      type: git
+      url: https://github.com/robin-mueller/auto-apms.git
+      version: jazzy
+  autocarros2:
+    doc:
+      type: git
+      url: https://github.com/winstxnhdw/autocarros2.git
+      version: master
+  autodriving-planning-control-algorithm-simulation-carla:
+    doc:
+      type: git
+      url: https://github.com/l5player/autodriving-planning-control-algorithm-simulation-carla.git
+      version: master
+  autodrrt:
+    doc:
+      type: git
+      url: https://github.com/ieiauto/autodrrt.git
+      version: main
+  autonav:
+    doc:
+      type: git
+      url: https://github.com/jatinpatil2003/autonav.git
+      version: autonav_web
+  autonomous-systems:
+    doc:
+      type: git
+      url: https://github.com/fs-feup/autonomous-systems.git
+      version: main
+  autonomous_mobile_robot:
+    doc:
+      type: git
+      url: https://github.com/jdgalviss/autonomous_mobile_robot.git
+      version: master
+  autonomous_mobile_robots:
+    doc:
+      type: git
+      url: https://github.com/walid-khaled/autonomous_mobile_robots.git
+      version: master
+  autonomy-research-testbed:
+    doc:
+      type: git
+      url: https://github.com/uwsbel/autonomy-research-testbed.git
+      version: master
+  autonomy-science-and-systems:
+    doc:
+      type: git
+      url: https://github.com/tinker-twins/autonomy-science-and-systems.git
+      version: main
+  autonomy_stack_diablo_setup:
+    doc:
+      type: git
+      url: https://github.com/jizhang-cmu/autonomy_stack_diablo_setup.git
+      version: jazzy
+  autonomy_stack_go2:
+    doc:
+      type: git
+      url: https://github.com/jizhang-cmu/autonomy_stack_go2.git
+      version: foxy-humble
+  autonomy_stack_mecanum_wheel_platform:
+    doc:
+      type: git
+      url: https://github.com/jizhang-cmu/autonomy_stack_mecanum_wheel_platform.git
+      version: jazzy
+  autorobo.universe:
+    doc:
+      type: git
+      url: https://github.com/kazu-321/autorobo.universe.git
+      version: main
+  autoware-practice:
+    doc:
+      type: git
+      url: https://github.com/automotiveaichallenge/autoware-practice.git
+      version: main
+  autoware2020-course:
+    doc:
+      type: git
+      url: https://github.com/t-thanh/autoware2020-course.git
+      version: master
+  autoware_auto_msgs:
+    doc:
+      type: git
+      url: https://github.com/tier4/autoware_auto_msgs.git
+      version: tier4/main
+  autoware_car:
+    doc:
+      type: git
+      url: https://github.com/qin-yuan/autoware_car.git
+      version: master
+  autoware_carla_launch:
+    doc:
+      type: git
+      url: https://github.com/evshary/autoware_carla_launch.git
+      version: main
+  autoware_core:
+    doc:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_core.git
+      version: main
+  autoware_launch:
+    doc:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_launch.git
+      version: main
+  autoware_learn:
+    doc:
+      type: git
+      url: https://github.com/is-whale/autoware_learn.git
+      version: '1.14'
+  autoware_nova_carter:
+    doc:
+      type: git
+      url: https://github.com/tier4/autoware_nova_carter.git
+      version: main
+  autoware_perception_evaluation:
+    doc:
+      type: git
+      url: https://github.com/tier4/autoware_perception_evaluation.git
+      version: develop
+  autoware_tools:
+    doc:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_tools.git
+      version: main
+  autoware_universe:
+    doc:
+      type: git
+      url: https://github.com/autowarefoundation/autoware_universe.git
+      version: main
+  autowareauto:
+    doc:
+      type: git
+      url: https://github.com/autocore-ai/autowareauto.git
+      version: master
+  autowarev2x:
+    doc:
+      type: git
+      url: https://github.com/tlab-wide/autowarev2x.git
+      version: main
+  autox-semmap:
+    doc:
+      type: git
+      url: https://github.com/irvlutd/autox-semmap.git
+      version: main
+  auv_controllers:
+    doc:
+      type: git
+      url: https://github.com/robotic-decision-making-lab/auv_controllers.git
+      version: main
+  aws-deepracer:
+    doc:
+      type: git
+      url: https://github.com/aws-deepracer/aws-deepracer.git
+      version: main
+  aws-deepracer-follow-the-leader-sample-project:
+    doc:
+      type: git
+      url: https://github.com/aws-deepracer/aws-deepracer-follow-the-leader-sample-project.git
+      version: main
+  aws-deepracer-launcher:
+    doc:
+      type: git
+      url: https://github.com/aws-deepracer/aws-deepracer-launcher.git
+      version: main
+  aws-iot-fleetwise-edge:
+    doc:
+      type: git
+      url: https://github.com/aws/aws-iot-fleetwise-edge.git
+      version: main
+  awsim:
+    doc:
+      type: git
+      url: https://github.com/tier4/awsim.git
+      version: main
+  ball_tracker:
+    doc:
+      type: git
+      url: https://github.com/joshnewans/ball_tracker.git
+      version: main
+  bandwidth_measurererer:
+    doc:
+      type: git
+      url: https://github.com/gbiggs/bandwidth_measurererer.git
+      version: main
+  batch-opt-highway-driving:
+    doc:
+      type: git
+      url: https://github.com/vivek-uka/batch-opt-highway-driving.git
+      version: master
+  beam_slam:
+    doc:
+      type: git
+      url: https://github.com/beamrobotics/beam_slam.git
+      version: main
+  benchmarks:
+    doc:
+      type: git
+      url: https://github.com/robotperf/benchmarks.git
+      version: main
+  biconvex_mpc:
+    doc:
+      type: git
+      url: https://github.com/machines-in-motion/biconvex_mpc.git
+      version: main
+  bidex_manus_teleop:
+    doc:
+      type: git
+      url: https://github.com/leap-hand/bidex_manus_teleop.git
+      version: main
+  bipedal_mpc:
+    doc:
+      type: git
+      url: https://github.com/clearlab-sustech/bipedal_mpc.git
+      version: master
+  bitbots_main:
+    doc:
+      type: git
+      url: https://github.com/bit-bots/bitbots_main.git
+      version: main
+  blmc_drivers:
+    doc:
+      type: git
+      url: https://github.com/open-dynamic-robot-initiative/blmc_drivers.git
+      version: master
+  blue:
+    doc:
+      type: git
+      url: https://github.com/robotic-decision-making-lab/blue.git
+      version: main
+  bluerov2:
+    doc:
+      type: git
+      url: https://github.com/centralenantesrov/bluerov2.git
+      version: main
+  bobcamera:
+    doc:
+      type: git
+      url: https://github.com/bobcamera/bobcamera.git
+      version: main
+  bolt:
+    doc:
+      type: git
+      url: https://github.com/open-dynamic-robot-initiative/bolt.git
+      version: master
+  bonxai:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/bonxai.git
+      version: main
+  book-code:
+    doc:
+      type: git
+      url: https://github.com/learningadaptivereactiverobotcontrol/book-code.git
+      version: main
+  book_ros2:
+    doc:
+      type: git
+      url: https://github.com/fmrico/book_ros2.git
+      version: rolling
+  bop_toolkit:
+    doc:
+      type: git
+      url: https://github.com/thodan/bop_toolkit.git
+      version: master
+  botanbot_sim:
+    doc:
+      type: git
+      url: https://github.com/nmburobotics/botanbot_sim.git
+      version: main
+  bpc:
+    doc:
+      type: git
+      url: https://github.com/opencv/bpc.git
+      version: main
+  bridges:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/bridges.git
+      version: rolling
+  brne:
+    doc:
+      type: git
+      url: https://github.com/murpheylab/brne.git
+      version: main
+  brne_social_nav:
+    doc:
+      type: git
+      url: https://github.com/katie-hughes/brne_social_nav.git
+      version: main
+  browedit3:
+    doc:
+      type: git
+      url: https://github.com/borf/browedit3.git
+      version: master
+  bt_ros2:
+    doc:
+      type: git
+      url: https://github.com/adlink-ros/bt_ros2.git
+      version: master
+  bt_tools:
+    doc:
+      type: git
+      url: https://github.com/boschresearch/bt_tools.git
+      version: main
+  bt_use_cases:
+    doc:
+      type: git
+      url: https://github.com/miccol/bt_use_cases.git
+      version: main
+  btgenbot:
+    doc:
+      type: git
+      url: https://github.com/airlab-polimi/btgenbot.git
+      version: master
+  buildfarm_perf_tests:
+    doc:
+      type: git
+      url: https://github.com/ros2/buildfarm_perf_tests.git
+      version: master
+  bunny_teleop_server:
+    doc:
+      type: git
+      url: https://github.com/dingry/bunny_teleop_server.git
+      version: main
+  bytetrack_ros:
+    doc:
+      type: git
+      url: https://github.com/fateshelled/bytetrack_ros.git
+      version: main
+  cabot:
+    doc:
+      type: git
+      url: https://github.com/cmu-cabot/cabot.git
+      version: ros2
+  cactus-rt:
+    doc:
+      type: git
+      url: https://github.com/cactusdynamics/cactus-rt.git
+      version: master
+  calibration_tools:
+    doc:
+      type: git
+      url: https://github.com/autocore-ai/calibration_tools.git
+      version: main
+  calibrationtools:
+    doc:
+      type: git
+      url: https://github.com/tier4/calibrationtools.git
+      version: tier4/universe
+  car_competition:
+    doc:
+      type: git
+      url: https://github.com/ht-hlf/car_competition.git
+      version: master
+  carla-autoware-bridge:
+    doc:
+      type: git
+      url: https://github.com/tumftm/carla-autoware-bridge.git
+      version: main
+  carla-e2e-av-stack:
+    doc:
+      type: git
+      url: https://github.com/soumya997/carla-e2e-av-stack.git
+      version: main
+  carla_autoware_bridge:
+    doc:
+      type: git
+      url: https://github.com/robotics010/carla_autoware_bridge.git
+      version: master
+  carla_ros_simulation:
+    doc:
+      type: git
+      url: https://github.com/urbanpistek/carla_ros_simulation.git
+      version: main
+  carla_vloc_benchmark:
+    doc:
+      type: git
+      url: https://github.com/lasuomela/carla_vloc_benchmark.git
+      version: main
+  carma-platform:
+    doc:
+      type: git
+      url: https://github.com/usdot-fhwa-stol/carma-platform.git
+      version: develop
+  cartesian_controllers:
+    doc:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/cartesian_controllers.git
+      version: ros2
+  cartesian_controllers_universal_robots:
+    doc:
+      type: git
+      url: https://github.com/stefanscherzinger/cartesian_controllers_universal_robots.git
+      version: ros2
+  cartographer_migrate_to_ros2:
+    doc:
+      type: git
+      url: https://github.com/adayimaxiga/cartographer_migrate_to_ros2.git
+      version: master
+  cartographer_navigation:
+    doc:
+      type: git
+      url: https://github.com/jyc924693/cartographer_navigation.git
+      version: main
+  centerpoint-livox:
+    doc:
+      type: git
+      url: https://github.com/tream733/centerpoint-livox.git
+      version: master
+  ceres_robot:
+    doc:
+      type: git
+      url: https://github.com/uos/ceres_robot.git
+      version: master
+  chatgpt_ros:
+    doc:
+      type: git
+      url: https://github.com/chinaheyu/chatgpt_ros.git
+      version: main
+  chess_manipulator:
+    doc:
+      type: git
+      url: https://github.com/zeinbarhoum/chess_manipulator.git
+      version: master
+  choirbot:
+    doc:
+      type: git
+      url: https://github.com/opt4smart/choirbot.git
+      version: master
+  clearpath_robot:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_robot.git
+      version: jazzy
+  cloisim_ros:
+    doc:
+      type: git
+      url: https://github.com/lge-ros2/cloisim_ros.git
+      version: main
+  cloudy:
+    doc:
+      type: git
+      url: https://github.com/robolaunch/cloudy.git
+      version: main
+  co-lrio:
+    doc:
+      type: git
+      url: https://github.com/zhongshp/co-lrio.git
+      version: master
+  code_planner:
+    doc:
+      type: git
+      url: https://github.com/ssssuxin/code_planner.git
+      version: main
+  colcon-poetry-ros:
+    doc:
+      type: git
+      url: https://github.com/urbanmachine/colcon-poetry-ros.git
+      version: main
+  collaborative-monte-carlo-localization:
+    doc:
+      type: git
+      url: https://github.com/idsia-robotics/collaborative-monte-carlo-localization.git
+      version: main
+  collaborative-robotic-sanding:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/collaborative-robotic-sanding.git
+      version: master
+  color-point-cloud:
+    doc:
+      type: git
+      url: https://github.com/leo-drive/color-point-cloud.git
+      version: main
+  community:
+    doc:
+      type: git
+      url: https://github.com/kubeedge/community.git
+      version: master
+  computation_offloading_ros2:
+    doc:
+      type: git
+      url: https://github.com/iitp-load-balancing/computation_offloading_ros2.git
+      version: main
+  conflict_rez:
+    doc:
+      type: git
+      url: https://github.com/xushenlz/conflict_rez.git
+      version: main
+  consai_ros2:
+    doc:
+      type: git
+      url: https://github.com/ssl-roots/consai_ros2.git
+      version: main
+  conveyor_belt:
+    doc:
+      type: git
+      url: https://github.com/shantanuparabumd/conveyor_belt.git
+      version: main
+  copper-rs:
+    doc:
+      type: git
+      url: https://github.com/copper-project/copper-rs.git
+      version: master
+  corolib:
+    doc:
+      type: git
+      url: https://github.com/johanvanslembrouck/corolib.git
+      version: master
+  costmap_depth_camera:
+    doc:
+      type: git
+      url: https://github.com/tsengapola/costmap_depth_camera.git
+      version: humble
+  cpg-rbfn-framework:
+    doc:
+      type: git
+      url: https://github.com/mathiasthor/cpg-rbfn-framework.git
+      version: main
+  cppflow:
+    doc:
+      type: git
+      url: https://github.com/jstmn/cppflow.git
+      version: master
+  crazychoir:
+    doc:
+      type: git
+      url: https://github.com/opt4smart/crazychoir.git
+      version: master
+  crazyflie_ros2_experimental:
+    doc:
+      type: git
+      url: https://github.com/knmcguire/crazyflie_ros2_experimental.git
+      version: main
+  crlfnet:
+    doc:
+      type: git
+      url: https://github.com/orangesodahub/crlfnet.git
+      version: master
+  csu-rm-sentry:
+    doc:
+      type: git
+      url: https://github.com/baiyeweiguang/csu-rm-sentry.git
+      version: main
+  ctrlx-automation-sdk-ros2:
+    doc:
+      type: git
+      url: https://github.com/boschrexroth/ctrlx-automation-sdk-ros2.git
+      version: main
+  cuda-accelerated-visual-inertial-odometry-fusion:
+    doc:
+      type: git
+      url: https://github.com/jagennath-hari/cuda-accelerated-visual-inertial-odometry-fusion.git
+      version: main
+  custom_qt5_rviz2:
+    doc:
+      type: git
+      url: https://github.com/martibolet/custom_qt5_rviz2.git
+      version: main
+  cyberdog2_ros2_galactic:
+    doc:
+      type: git
+      url: https://github.com/yjrqz777/cyberdog2_ros2_galactic.git
+      version: master
+  cyberdog_camera:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/cyberdog_camera.git
+      version: rolling
+  cyberdog_miloc:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/cyberdog_miloc.git
+      version: rolling
+  cyberdog_nav2:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/cyberdog_nav2.git
+      version: rolling
+  cyberdog_occmap:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/cyberdog_occmap.git
+      version: rolling
+  cyberdog_ros2:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/cyberdog_ros2.git
+      version: main
+  cyberdog_rviz2_plugin:
+    doc:
+      type: git
+      url: https://github.com/linzhibo/cyberdog_rviz2_plugin.git
+      version: main
+  cyberdog_simulator:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/cyberdog_simulator.git
+      version: main
+  cyberdog_tracking_base:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/cyberdog_tracking_base.git
+      version: rolling
+  cyberdog_utils:
+    doc:
+      type: git
+      url: https://github.com/linzhibo/cyberdog_utils.git
+      version: main
+  cyberdog_ws:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/cyberdog_ws.git
+      version: rolling
+  cybergear_m5_ros2:
+    doc:
+      type: git
+      url: https://github.com/project-sternbergia/cybergear_m5_ros2.git
+      version: main
+  cyberrunner:
+    doc:
+      type: git
+      url: https://github.com/thomasbi1/cyberrunner.git
+      version: master
+  d2lros2-humble-code:
+    doc:
+      type: git
+      url: https://github.com/fishros/d2lros2-humble-code.git
+      version: master
+  db-cbs:
+    doc:
+      type: git
+      url: https://github.com/imrclab/db-cbs.git
+      version: main
+  dbow2:
+    doc:
+      type: git
+      url: https://github.com/dorian3d/dbow2.git
+      version: master
+  dds-record-replay:
+    doc:
+      type: git
+      url: https://github.com/eprosima/dds-record-replay.git
+      version: main
+  dds-router:
+    doc:
+      type: git
+      url: https://github.com/eprosima/dds-router.git
+      version: main
+  dds-tsn:
+    doc:
+      type: git
+      url: https://github.com/nxp/dds-tsn.git
+      version: main
+  deepracing:
+    doc:
+      type: git
+      url: https://github.com/linklab-uva/deepracing.git
+      version: 2023-udp
+  degenerate-detection:
+    doc:
+      type: git
+      url: https://github.com/jisehua/degenerate-detection.git
+      version: master
+  delftx_ros1x_hrwros:
+    doc:
+      type: git
+      url: https://github.com/shinyufish/delftx_ros1x_hrwros.git
+      version: master
+  delta-robot-simulation-gazebo:
+    doc:
+      type: git
+      url: https://github.com/autoroboculture/delta-robot-simulation-gazebo.git
+      version: master
+  demos:
+    doc:
+      type: git
+      url: https://github.com/space-ros/demos.git
+      version: main
+  denso_robot_ros2:
+    doc:
+      type: git
+      url: https://github.com/densorobot/denso_robot_ros2.git
+      version: humble
+  depth_anything_v2_ros2:
+    doc:
+      type: git
+      url: https://github.com/grupo-avispa/depth_anything_v2_ros2.git
+      version: main
+  depthai-ros-examples:
+    doc:
+      type: git
+      url: https://github.com/luxonis/depthai-ros-examples.git
+      version: humble
+  depthstream-accelerator-ros2-integrated-monocular-depth-inference:
+    doc:
+      type: git
+      url: https://github.com/jagennath-hari/depthstream-accelerator-ros2-integrated-monocular-depth-inference.git
+      version: main
+  dero:
+    doc:
+      type: git
+      url: https://github.com/hoangvietdo/dero.git
+      version: main
+  desplate:
+    doc:
+      type: git
+      url: https://github.com/chapulina/desplate.git
+      version: main
+  detect-objects-with-depth-estimation:
+    doc:
+      type: git
+      url: https://github.com/sieniven/detect-objects-with-depth-estimation.git
+      version: main
+  devices:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/devices.git
+      version: rolling
+  diablo_ros2:
+    doc:
+      type: git
+      url: https://github.com/ddtrobot/diablo_ros2.git
+      version: main
+  differential-drive-robot:
+    doc:
+      type: git
+      url: https://github.com/giulioturrisi/differential-drive-robot.git
+      version: main
+  differential_ros2:
+    doc:
+      type: git
+      url: https://github.com/parapara29/differential_ros2.git
+      version: main
+  digit-plexus:
+    doc:
+      type: git
+      url: https://github.com/facebookresearch/digit-plexus.git
+      version: main
+  digit360:
+    doc:
+      type: git
+      url: https://github.com/facebookresearch/digit360.git
+      version: main
+  digital-twin-of-a-traffic-scene-using-rsu-and-awsim:
+    doc:
+      type: git
+      url: https://github.com/rzninvo/digital-twin-of-a-traffic-scene-using-rsu-and-awsim.git
+      version: main
+  dimos-unitree:
+    doc:
+      type: git
+      url: https://github.com/dimensionalos/dimos-unitree.git
+      version: main
+  discoverse:
+    doc:
+      type: git
+      url: https://github.com/tatp-233/discoverse.git
+      version: main
+  dobot_6axis_ros2_v4:
+    doc:
+      type: git
+      url: https://github.com/dobot-arm/dobot_6axis_ros2_v4.git
+      version: main
+  docker:
+    doc:
+      type: git
+      url: https://github.com/space-ros/docker.git
+      version: main
+  docker_files:
+    doc:
+      type: git
+      url: https://github.com/larics/docker_files.git
+      version: master
+  double_laser_mapping_location:
+    doc:
+      type: git
+      url: https://github.com/adayimaxiga/double_laser_mapping_location.git
+      version: master
+  drake:
+    doc:
+      type: git
+      url: https://github.com/robotlocomotion/drake.git
+      version: master
+  drawing_manipulator:
+    doc:
+      type: git
+      url: https://github.com/li-haojia/drawing_manipulator.git
+      version: master
+  driving_log_replayer:
+    doc:
+      type: git
+      url: https://github.com/tier4/driving_log_replayer.git
+      version: develop
+  drl_navigation_robot_ros2_foxy:
+    doc:
+      type: git
+      url: https://github.com/toxuandung/drl_navigation_robot_ros2_foxy.git
+      version: main
+  drona:
+    doc:
+      type: git
+      url: https://github.com/gaurang-1402/drona.git
+      version: main
+  drone_simulator:
+    doc:
+      type: git
+      url: https://github.com/patilunmesh/drone_simulator.git
+      version: main
+  drones_ros2:
+    doc:
+      type: git
+      url: https://github.com/robotisim/drones_ros2.git
+      version: main
+  dropbear:
+    doc:
+      type: git
+      url: https://github.com/hyperspawn/dropbear.git
+      version: main
+  dvm-slam:
+    doc:
+      type: git
+      url: https://github.com/proroklab/dvm-slam.git
+      version: main
+  dynamic_message_introspection:
+    doc:
+      type: git
+      url: https://github.com/osrf/dynamic_message_introspection.git
+      version: main
+  dynamic_object_removal:
+    doc:
+      type: git
+      url: https://github.com/davutcanakbas/dynamic_object_removal.git
+      version: main
+  easy-orb-slam3:
+    doc:
+      type: git
+      url: https://github.com/doeswork/easy-orb-slam3.git
+      version: master
+  easy_handeye:
+    doc:
+      type: git
+      url: https://github.com/ifl-camp/easy_handeye.git
+      version: master
+  easy_handeye2:
+    doc:
+      type: git
+      url: https://github.com/marcoesposito1988/easy_handeye2.git
+      version: master
+  easy_manipulation_deployment:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/easy_manipulation_deployment.git
+      version: master
+  easy_perception_deployment:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/easy_perception_deployment.git
+      version: master
+  easys_ros:
+    doc:
+      type: git
+      url: https://github.com/tamago117/easys_ros.git
+      version: master
+  ecn_ros2_labs:
+    doc:
+      type: git
+      url: https://github.com/okermorgant/ecn_ros2_labs.git
+      version: main
+  ed:
+    doc:
+      type: git
+      url: https://github.com/tue-robotics/ed.git
+      version: master
+  ed_localization:
+    doc:
+      type: git
+      url: https://github.com/tue-robotics/ed_localization.git
+      version: master
+  edgeyolo-ros:
+    doc:
+      type: git
+      url: https://github.com/fateshelled/edgeyolo-ros.git
+      version: main
+  eflatun_src:
+    doc:
+      type: git
+      url: https://github.com/sezer-muhammed/eflatun_src.git
+      version: master
+  ego_planner_ros2:
+    doc:
+      type: git
+      url: https://github.com/ssssuxin/ego_planner_ros2.git
+      version: main
+  ekf_cal:
+    doc:
+      type: git
+      url: https://github.com/unmannedlab/ekf_cal.git
+      version: main
+  elfin_robot_ros2:
+    doc:
+      type: git
+      url: https://github.com/hans-robot/elfin_robot_ros2.git
+      version: foxy_ethercat
+  emcl2_ros2:
+    doc:
+      type: git
+      url: https://github.com/cit-autonomous-robot-lab/emcl2_ros2.git
+      version: main
+  epuck_ros2:
+    doc:
+      type: git
+      url: https://github.com/cyberbotics/epuck_ros2.git
+      version: master
+  eskf-gnss-imu-localization:
+    doc:
+      type: git
+      url: https://github.com/limhaeryong/eskf-gnss-imu-localization.git
+      version: master
+  eskf_lio:
+    doc:
+      type: git
+      url: https://github.com/limhaeryong/eskf_lio.git
+      version: main
+  esp32_ros2_robot:
+    doc:
+      type: git
+      url: https://github.com/zhaoxiangbox/esp32_ros2_robot.git
+      version: foxy
+  ethercat_driver_ros2:
+    doc:
+      type: git
+      url: https://github.com/icube-robotics/ethercat_driver_ros2.git
+      version: main
+  ethercat_driver_ros2_examples:
+    doc:
+      type: git
+      url: https://github.com/icube-robotics/ethercat_driver_ros2_examples.git
+      version: main
+  etri-dual-hand-arm-robot:
+    doc:
+      type: git
+      url: https://github.com/donghyungkim/etri-dual-hand-arm-robot.git
+      version: main
+  events-executor:
+    doc:
+      type: git
+      url: https://github.com/irobot-ros/events-executor.git
+      version: main
+  examples2:
+    doc:
+      type: git
+      url: https://github.com/conan-io/examples2.git
+      version: main
+  extended_map_server:
+    doc:
+      type: git
+      url: https://github.com/navigation-gridmap/extended_map_server.git
+      version: main
+  eyrc-24-25-logistic-cobot:
+    doc:
+      type: git
+      url: https://github.com/eyantra-robotics-competition/eyrc-24-25-logistic-cobot.git
+      version: main
+  f1tenth-racing-stack-icra22:
+    doc:
+      type: git
+      url: https://github.com/zzjun725/f1tenth-racing-stack-icra22.git
+      version: main
+  f1tenth_docking:
+    doc:
+      type: git
+      url: https://github.com/p-f1tenth/f1tenth_docking.git
+      version: main
+  f1tenth_ws:
+    doc:
+      type: git
+      url: https://github.com/cl2-uwaterloo/f1tenth_ws.git
+      version: main
+  fanuc_ros2_drivers:
+    doc:
+      type: git
+      url: https://github.com/uofi-cdacs/fanuc_ros2_drivers.git
+      version: v1.1
+  fast-dds-monitor:
+    doc:
+      type: git
+      url: https://github.com/eprosima/fast-dds-monitor.git
+      version: main
+  fast-dds-statistics-backend:
+    doc:
+      type: git
+      url: https://github.com/eprosima/fast-dds-statistics-backend.git
+      version: main
+  fastlio2_ros2:
+    doc:
+      type: git
+      url: https://github.com/liangheming/fastlio2_ros2.git
+      version: main
+  feetech_arm_control:
+    doc:
+      type: git
+      url: https://github.com/iltlo/feetech_arm_control.git
+      version: master
+  fetch_ros:
+    doc:
+      type: git
+      url: https://github.com/zebradevs/fetch_ros.git
+      version: ros1
+  fgsp:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/fgsp.git
+      version: main
+  fiducial_vlam:
+    doc:
+      type: git
+      url: https://github.com/ptrmu/fiducial_vlam.git
+      version: master
+  fire-rs-saop:
+    doc:
+      type: git
+      url: https://github.com/laas/fire-rs-saop.git
+      version: master
+  fish_protocol:
+    doc:
+      type: git
+      url: https://github.com/fishros/fish_protocol.git
+      version: master
+  fishbot:
+    doc:
+      type: git
+      url: https://github.com/fishros/fishbot.git
+      version: humble
+  fishbot_motion_control_microros:
+    doc:
+      type: git
+      url: https://github.com/fishros/fishbot_motion_control_microros.git
+      version: main
+  fleet_adapter_mir:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/fleet_adapter_mir.git
+      version: main
+  fleet_adapter_template:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/fleet_adapter_template.git
+      version: main
+  flexible_navigation:
+    doc:
+      type: git
+      url: https://github.com/cnurobotics/flexible_navigation.git
+      version: main
+  flexiv_ros2:
+    doc:
+      type: git
+      url: https://github.com/flexivrobotics/flexiv_ros2.git
+      version: humble
+  flexmap_fusion:
+    doc:
+      type: git
+      url: https://github.com/tumftm/flexmap_fusion.git
+      version: main
+  flock2:
+    doc:
+      type: git
+      url: https://github.com/clydemcqueen/flock2.git
+      version: master
+  fogros2-sgc:
+    doc:
+      type: git
+      url: https://github.com/data-capsule/fogros2-sgc.git
+      version: main
+  forest:
+    doc:
+      type: git
+      url: https://github.com/ros2-forest/forest.git
+      version: master
+  foxglove-sdk:
+    doc:
+      type: git
+      url: https://github.com/foxglove/foxglove-sdk.git
+      version: main
+  frankateleop:
+    doc:
+      type: git
+      url: https://github.com/gjcliff/frankateleop.git
+      version: main
+  frcobot_ros2:
+    doc:
+      type: git
+      url: https://github.com/fair-innovation/frcobot_ros2.git
+      version: main
+  free_fleet:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/free_fleet.git
+      version: main
+  freecad.cross:
+    doc:
+      type: git
+      url: https://github.com/galou/freecad.cross.git
+      version: main
+  freertos_apps:
+    doc:
+      type: git
+      url: https://github.com/micro-ros/freertos_apps.git
+      version: jazzy
+  frenet_planner_agv:
+    doc:
+      type: git
+      url: https://github.com/anime-sh/frenet_planner_agv.git
+      version: master
+  fri:
+    doc:
+      type: git
+      url: https://github.com/lbr-stack/fri.git
+      version: fri-1.15
+  frontier_exploration:
+    doc:
+      type: git
+      url: https://github.com/adrian-soch/frontier_exploration.git
+      version: main
+  furuta_pendulum:
+    doc:
+      type: git
+      url: https://github.com/macstepien/furuta_pendulum.git
+      version: master
+  fusion2urdf-ros2:
+    doc:
+      type: git
+      url: https://github.com/dheena2k2/fusion2urdf-ros2.git
+      version: master
+  fusionslam-unifying-instant-ngp-for-monocular-slam:
+    doc:
+      type: git
+      url: https://github.com/jagennath-hari/fusionslam-unifying-instant-ngp-for-monocular-slam.git
+      version: main
+  fusiontracking:
+    doc:
+      type: git
+      url: https://github.com/tumftm/fusiontracking.git
+      version: main
+  fyp-rescue-robot:
+    doc:
+      type: git
+      url: https://github.com/maggielovedd/fyp-rescue-robot.git
+      version: master
+  fyt2024_vision:
+    doc:
+      type: git
+      url: https://github.com/csu-fyt-vision/fyt2024_vision.git
+      version: main
+  gaden:
+    doc:
+      type: git
+      url: https://github.com/mapirlab/gaden.git
+      version: ros2
+  gassourcelocalization:
+    doc:
+      type: git
+      url: https://github.com/mapirlab/gassourcelocalization.git
+      version: ros2
+  gaussianrpg:
+    doc:
+      type: git
+      url: https://github.com/gimpelzhang/gaussianrpg.git
+      version: main
+  gazebo_ackermann_steering_vehicle:
+    doc:
+      type: git
+      url: https://github.com/lucasmazzetto/gazebo_ackermann_steering_vehicle.git
+      version: main
+  gazebo_differential_drive_robot:
+    doc:
+      type: git
+      url: https://github.com/lucasmazzetto/gazebo_differential_drive_robot.git
+      version: main
+  gazebo_gridmap_plugin:
+    doc:
+      type: git
+      url: https://github.com/navigation-gridmap/gazebo_gridmap_plugin.git
+      version: main
+  gazebo_map_creator:
+    doc:
+      type: git
+      url: https://github.com/arshadlab/gazebo_map_creator.git
+      version: master
+  gazebo_mecanum_plugins:
+    doc:
+      type: git
+      url: https://github.com/qaz9517532846/gazebo_mecanum_plugins.git
+      version: ros2-foxy
+  gcamp_ros2_basic:
+    doc:
+      type: git
+      url: https://github.com/road-balance/gcamp_ros2_basic.git
+      version: main
+  gcs:
+    doc:
+      type: git
+      url: https://github.com/mpetersen94/gcs.git
+      version: main
+  gcs-science-robotics:
+    doc:
+      type: git
+      url: https://github.com/robotlocomotion/gcs-science-robotics.git
+      version: main
+  genmos_object_search:
+    doc:
+      type: git
+      url: https://github.com/zkytony/genmos_object_search.git
+      version: main
+  get-started-ros2:
+    doc:
+      type: git
+      url: https://github.com/youtalk/get-started-ros2.git
+      version: main
+  giraffe:
+    doc:
+      type: git
+      url: https://github.com/carpit680/giraffe.git
+      version: main
+  gisnav:
+    doc:
+      type: git
+      url: https://github.com/hmakelin/gisnav.git
+      version: master
+  glim:
+    doc:
+      type: git
+      url: https://github.com/koide3/glim.git
+      version: master
+  glim_ext:
+    doc:
+      type: git
+      url: https://github.com/koide3/glim_ext.git
+      version: master
+  glim_ros2:
+    doc:
+      type: git
+      url: https://github.com/koide3/glim_ros2.git
+      version: master
+  glo:
+    doc:
+      type: git
+      url: https://github.com/robosu12/glo.git
+      version: master
+  global-planner-benchmark:
+    doc:
+      type: git
+      url: https://github.com/ksvbka/global-planner-benchmark.git
+      version: master
+  go2_isaac_ros2:
+    doc:
+      type: git
+      url: https://github.com/clearoboticslab/go2_isaac_ros2.git
+      version: main
+  go2_rl_ws:
+    doc:
+      type: git
+      url: https://github.com/eppl-erau-db/go2_rl_ws.git
+      version: main
+  go2_ros2_sdk:
+    doc:
+      type: git
+      url: https://github.com/abizovnuralem/go2_ros2_sdk.git
+      version: master
+  go2py:
+    doc:
+      type: git
+      url: https://github.com/machines-in-motion/go2py.git
+      version: main
+  greengrass-v2-docker-ros-demo:
+    doc:
+      type: git
+      url: https://github.com/aws-samples/greengrass-v2-docker-ros-demo.git
+      version: main
+  gscam2:
+    doc:
+      type: git
+      url: https://github.com/clydemcqueen/gscam2.git
+      version: main
+  guide_dog_unitree_go1:
+    doc:
+      type: git
+      url: https://github.com/marnonel6/guide_dog_unitree_go1.git
+      version: main
+  guyueclass:
+    doc:
+      type: git
+      url: https://github.com/guyuehome/guyueclass.git
+      version: main
+  gz-cmake:
+    doc:
+      type: git
+      url: https://github.com/gazebosim/gz-cmake.git
+      version: gz-cmake4
+  gz-gui:
+    doc:
+      type: git
+      url: https://github.com/gazebosim/gz-gui.git
+      version: gz-gui9
+  gz-launch:
+    doc:
+      type: git
+      url: https://github.com/gazebosim/gz-launch.git
+      version: gz-launch8
+  gz-math:
+    doc:
+      type: git
+      url: https://github.com/gazebosim/gz-math.git
+      version: gz-math8
+  gz-plugin:
+    doc:
+      type: git
+      url: https://github.com/gazebosim/gz-plugin.git
+      version: gz-plugin3
+  gz-rendering:
+    doc:
+      type: git
+      url: https://github.com/gazebosim/gz-rendering.git
+      version: gz-rendering9
+  gz-rviz:
+    doc:
+      type: git
+      url: https://github.com/gazebosim/gz-rviz.git
+      version: main
+  gz-sensors:
+    doc:
+      type: git
+      url: https://github.com/gazebosim/gz-sensors.git
+      version: gz-sensors9
+  gz-sim:
+    doc:
+      type: git
+      url: https://github.com/gazebosim/gz-sim.git
+      version: gz-sim9
+  gz-tools:
+    doc:
+      type: git
+      url: https://github.com/gazebosim/gz-tools.git
+      version: gz-tools2
+  h264_image_transport:
+    doc:
+      type: git
+      url: https://github.com/clydemcqueen/h264_image_transport.git
+      version: master
+  h6x-internship:
+    doc:
+      type: git
+      url: https://github.com/harvestx/h6x-internship.git
+      version: main
+  hadabot_main:
+    doc:
+      type: git
+      url: https://github.com/hadabot/hadabot_main.git
+      version: master
+  hakoniwa-ros2sim:
+    doc:
+      type: git
+      url: https://github.com/toppers/hakoniwa-ros2sim.git
+      version: main
+  hal-core:
+    doc:
+      type: git
+      url: https://github.com/grotius-cnc/hal-core.git
+      version: main
+  hal_ros_control:
+    doc:
+      type: git
+      url: https://github.com/tormach/hal_ros_control.git
+      version: humble-devel
+  handeye_calibration_ros2:
+    doc:
+      type: git
+      url: https://github.com/shengyangzhuang/handeye_calibration_ros2.git
+      version: main
+  happypose_ros:
+    doc:
+      type: git
+      url: https://github.com/agimus-project/happypose_ros.git
+      version: main
+  hdl-localization-ros2:
+    doc:
+      type: git
+      url: https://github.com/pyc5714/hdl-localization-ros2.git
+      version: master
+  hiwin_ros:
+    doc:
+      type: git
+      url: https://github.com/hiwincorporation/hiwin_ros.git
+      version: noetic-devel
+  hiwonder_xarm_esp32:
+    doc:
+      type: git
+      url: https://github.com/migsdigs/hiwonder_xarm_esp32.git
+      version: main
+  holoocean_ros:
+    doc:
+      type: git
+      url: https://github.com/migeran/holoocean_ros.git
+      version: main
+  homebot-ros2-navigation:
+    doc:
+      type: git
+      url: https://github.com/aimechengineer/homebot-ros2-navigation.git
+      version: main
+  hongbomiao.com:
+    doc:
+      type: git
+      url: https://github.com/hongbo-miao/hongbomiao.com.git
+      version: main
+  hoverboard_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/databot-labs/hoverboard_ros2_control.git
+      version: main
+  hri_fullbody:
+    doc:
+      type: git
+      url: https://github.com/ros4hri/hri_fullbody.git
+      version: humble-devel
+  hunav_gazebo_wrapper:
+    doc:
+      type: git
+      url: https://github.com/robotics-upo/hunav_gazebo_wrapper.git
+      version: humble
+  hunav_sim:
+    doc:
+      type: git
+      url: https://github.com/robotics-upo/hunav_sim.git
+      version: humble
+  hunter_ros2:
+    doc:
+      type: git
+      url: https://github.com/agilexrobotics/hunter_ros2.git
+      version: master
+  husarion_ugv_ros:
+    doc:
+      type: git
+      url: https://github.com/husarion/husarion_ugv_ros.git
+      version: ros2
+  hybrid_local_planner:
+    doc:
+      type: git
+      url: https://github.com/fahimfss/hybrid_local_planner.git
+      version: main
+  hybrid_path_planning:
+    doc:
+      type: git
+      url: https://github.com/armando-genis/hybrid_path_planning.git
+      version: main
+  hybrid_vslam:
+    doc:
+      type: git
+      url: https://github.com/rodrigo-munguia/hybrid_vslam.git
+      version: master
+  hyperdog_ros2:
+    doc:
+      type: git
+      url: https://github.com/ndhana94/hyperdog_ros2.git
+      version: foxy
+  hyperion:
+    doc:
+      type: git
+      url: https://github.com/vis4rob-lab/hyperion.git
+      version: main
+  i2c_pwm_board:
+    doc:
+      type: git
+      url: https://github.com/vertueux/i2c_pwm_board.git
+      version: master
+  iceoryx2:
+    doc:
+      type: git
+      url: https://github.com/eclipse-iceoryx/iceoryx2.git
+      version: main
+  icp_localization_ros2:
+    doc:
+      type: git
+      url: https://github.com/baiyeweiguang/icp_localization_ros2.git
+      version: main
+  ifm3d-ros2:
+    doc:
+      type: git
+      url: https://github.com/ifm/ifm3d-ros2.git
+      version: master
+  ifra_conveyorbelt:
+    doc:
+      type: git
+      url: https://github.com/ifra-cranfield/ifra_conveyorbelt.git
+      version: main
+  ifra_linkattacher:
+    doc:
+      type: git
+      url: https://github.com/ifra-cranfield/ifra_linkattacher.git
+      version: ros2
+  ig_lio_slam:
+    doc:
+      type: git
+      url: https://github.com/inif-fish/ig_lio_slam.git
+      version: master
+  ihmc-open-robotics-software:
+    doc:
+      type: git
+      url: https://github.com/ihmcrobotics/ihmc-open-robotics-software.git
+      version: develop
+  ihmc-ros2-library:
+    doc:
+      type: git
+      url: https://github.com/ihmcrobotics/ihmc-ros2-library.git
+      version: develop
+  ik-template:
+    doc:
+      type: git
+      url: https://github.com/antonioarbues/ik-template.git
+      version: main
+  ik_benchmarking:
+    doc:
+      type: git
+      url: https://github.com/picknikrobotics/ik_benchmarking.git
+      version: main
+  ike_nav:
+    doc:
+      type: git
+      url: https://github.com/uhobeike/ike_nav.git
+      version: main
+  image2rtsp:
+    doc:
+      type: git
+      url: https://github.com/maladzenkau/image2rtsp.git
+      version: master
+  image_transport_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros-perception/image_transport_tutorials.git
+      version: main
+  imas-sc-prism-localify:
+    doc:
+      type: git
+      url: https://github.com/kimjio/imas-sc-prism-localify.git
+      version: main
+  imu-ros2:
+    doc:
+      type: git
+      url: https://github.com/analogdevicesinc/imu-ros2.git
+      version: main
+  imu_estimator:
+    doc:
+      type: git
+      url: https://github.com/rsasaki0109/imu_estimator.git
+      version: main
+  imu_zupt:
+    doc:
+      type: git
+      url: https://github.com/fixit-davide/imu_zupt.git
+      version: iron
+  indires_navigation:
+    doc:
+      type: git
+      url: https://github.com/noeperez/indires_navigation.git
+      version: master
+  industrial_training:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/industrial_training.git
+      version: humble
+  industrialrobots:
+    doc:
+      type: git
+      url: https://github.com/jderobot/industrialrobots.git
+      version: master
+  injectutils:
+    doc:
+      type: git
+      url: https://github.com/axhlzy/injectutils.git
+      version: main
+  interaction:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/interaction.git
+      version: rolling
+  interbotix_ros_rovers:
+    doc:
+      type: git
+      url: https://github.com/interbotix/interbotix_ros_rovers.git
+      version: main
+  interbotix_ros_toolboxes:
+    doc:
+      type: git
+      url: https://github.com/interbotix/interbotix_ros_toolboxes.git
+      version: main
+  intravisor:
+    doc:
+      type: git
+      url: https://github.com/lsds/intravisor.git
+      version: main
+  irc_ros:
+    doc:
+      type: git
+      url: https://github.com/commonplacerobotics/irc_ros.git
+      version: humble
+  isaac-ros2-control-sample:
+    doc:
+      type: git
+      url: https://github.com/hijimasa/isaac-ros2-control-sample.git
+      version: main
+  isaac-sim-3d-lidar-odometry-mapping:
+    doc:
+      type: git
+      url: https://github.com/taherfattahi/isaac-sim-3d-lidar-odometry-mapping.git
+      version: master
+  isaac_demo:
+    doc:
+      type: git
+      url: https://github.com/nvidia-ai-iot/isaac_demo.git
+      version: main
+  isaac_manipulator:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_manipulator.git
+      version: main
+  isaac_perceptor:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_perceptor.git
+      version: main
+  isaac_ros_apriltag:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_apriltag.git
+      version: main
+  isaac_ros_argus_camera:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_argus_camera.git
+      version: main
+  isaac_ros_benchmark:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_benchmark.git
+      version: main
+  isaac_ros_common:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_common.git
+      version: main
+  isaac_ros_compression:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_compression.git
+      version: main
+  isaac_ros_cumotion:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_cumotion.git
+      version: main
+  isaac_ros_depth_segmentation:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_depth_segmentation.git
+      version: main
+  isaac_ros_dnn_inference:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_dnn_inference.git
+      version: main
+  isaac_ros_dnn_stereo_depth:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_dnn_stereo_depth.git
+      version: main
+  isaac_ros_freespace_segmentation:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_freespace_segmentation.git
+      version: main
+  isaac_ros_image_pipeline:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_image_pipeline.git
+      version: main
+  isaac_ros_image_segmentation:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_image_segmentation.git
+      version: main
+  isaac_ros_jetson:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_jetson.git
+      version: main
+  isaac_ros_map_localization:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_map_localization.git
+      version: main
+  isaac_ros_mission_client:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_mission_client.git
+      version: main
+  isaac_ros_nitros:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_nitros.git
+      version: main
+  isaac_ros_nvblox:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_nvblox.git
+      version: main
+  isaac_ros_object_detection:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_object_detection.git
+      version: main
+  isaac_ros_pose_estimation:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_pose_estimation.git
+      version: main
+  isaac_ros_visual_slam:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/isaac_ros_visual_slam.git
+      version: main
+  isaacsim-ros_workspaces:
+    doc:
+      type: git
+      url: https://github.com/isaac-sim/isaacsim-ros_workspaces.git
+      version: main
+  iwr6843aop_pub:
+    doc:
+      type: git
+      url: https://github.com/nhma20/iwr6843aop_pub.git
+      version: main
+  jetbot-ros2:
+    doc:
+      type: git
+      url: https://github.com/jdgalviss/jetbot-ros2.git
+      version: main
+  jetbot_ros:
+    doc:
+      type: git
+      url: https://github.com/dusty-nv/jetbot_ros.git
+      version: master
+  jetson-voice:
+    doc:
+      type: git
+      url: https://github.com/dusty-nv/jetson-voice.git
+      version: master
+  json_struct:
+    doc:
+      type: git
+      url: https://github.com/jorgen/json_struct.git
+      version: master
+  jugglebot:
+    doc:
+      type: git
+      url: https://github.com/project-deepblue-juggling/jugglebot.git
+      version: main
+  kachaka-api:
+    doc:
+      type: git
+      url: https://github.com/pf-robotics/kachaka-api.git
+      version: main
+  kaiaai:
+    doc:
+      type: git
+      url: https://github.com/kaiaai/kaiaai.git
+      version: iron
+  kalman_filter_localization:
+    doc:
+      type: git
+      url: https://github.com/rsasaki0109/kalman_filter_localization.git
+      version: devel
+  kalman_robot:
+    doc:
+      type: git
+      url: https://github.com/agh-space-systems-rover/kalman_robot.git
+      version: main
+  kautham:
+    doc:
+      type: git
+      url: https://github.com/iocroblab/kautham.git
+      version: master
+  kidnapped_robot_finder:
+    doc:
+      type: git
+      url: https://github.com/saadi-tech/kidnapped_robot_finder.git
+      version: main
+  kinect_ros2:
+    doc:
+      type: git
+      url: https://github.com/fadlio/kinect_ros2.git
+      version: galactic
+  kitti_to_ros2bag:
+    doc:
+      type: git
+      url: https://github.com/chris7462/kitti_to_ros2bag.git
+      version: master
+  kmriiwa_ws:
+    doc:
+      type: git
+      url: https://github.com/ninamwa/kmriiwa_ws.git
+      version: eloquent
+  kobuki:
+    doc:
+      type: git
+      url: https://github.com/intelligentroboticslabs/kobuki.git
+      version: jazzy
+  kr260_robotic_arm:
+    doc:
+      type: git
+      url: https://github.com/shilicon/kr260_robotic_arm.git
+      version: main
+  kria-roboticsai:
+    doc:
+      type: git
+      url: https://github.com/amd/kria-roboticsai.git
+      version: main
+  l3gs:
+    doc:
+      type: git
+      url: https://github.com/berkeleyautomation/l3gs.git
+      version: main
+  laser_localization:
+    doc:
+      type: git
+      url: https://github.com/linyicheng1/laser_localization.git
+      version: main
+  layered_hardware:
+    doc:
+      type: git
+      url: https://github.com/yoshito-n-students/layered_hardware.git
+      version: jazzy
+  lbr_fri_ros2_stack:
+    doc:
+      type: git
+      url: https://github.com/lbr-stack/lbr_fri_ros2_stack.git
+      version: humble
+  ldrobot-lidar-ros2:
+    doc:
+      type: git
+      url: https://github.com/myzhar/ldrobot-lidar-ros2.git
+      version: devel
+  learm_ros2:
+    doc:
+      type: git
+      url: https://github.com/andrewda/learm_ros2.git
+      version: master
+  learning_ros2_launch_by_example:
+    doc:
+      type: git
+      url: https://github.com/chargerkong/learning_ros2_launch_by_example.git
+      version: main
+  learnopencv:
+    doc:
+      type: git
+      url: https://github.com/spmallick/learnopencv.git
+      version: master
+  lego-loam-ros2:
+    doc:
+      type: git
+      url: https://github.com/fishros/lego-loam-ros2.git
+      version: master
+  leo-rover-autonomous-exploration:
+    doc:
+      type: git
+      url: https://github.com/nathanshankar/leo-rover-autonomous-exploration.git
+      version: humble
+  lesson_urdf:
+    doc:
+      type: git
+      url: https://github.com/olmerg/lesson_urdf.git
+      version: master
+  lgmath:
+    doc:
+      type: git
+      url: https://github.com/utiasasrl/lgmath.git
+      version: master
+  li_slam_ros2:
+    doc:
+      type: git
+      url: https://github.com/rsasaki0109/li_slam_ros2.git
+      version: develop
+  liberhand:
+    doc:
+      type: git
+      url: https://github.com/ppml-group/liberhand.git
+      version: main
+  libiiwa:
+    doc:
+      type: git
+      url: https://github.com/toni-sm/libiiwa.git
+      version: main
+  libros2qt:
+    doc:
+      type: git
+      url: https://github.com/1r0b1n0/libros2qt.git
+      version: master
+  libsurvive_ros2:
+    doc:
+      type: git
+      url: https://github.com/asymingt/libsurvive_ros2.git
+      version: main
+  lidar_auto_docking:
+    doc:
+      type: git
+      url: https://github.com/synapseprogramming/lidar_auto_docking.git
+      version: humble-main
+  lidar_camera_calib:
+    doc:
+      type: git
+      url: https://github.com/simi-asher/lidar_camera_calib.git
+      version: main
+  lidar_cluster_ros2:
+    doc:
+      type: git
+      url: https://github.com/jkk-research/lidar_cluster_ros2.git
+      version: ros2
+  lidar_graph_slam:
+    doc:
+      type: git
+      url: https://github.com/ryuyamamoto/lidar_graph_slam.git
+      version: main
+  lidar_localization_ros2:
+    doc:
+      type: git
+      url: https://github.com/rsasaki0109/lidar_localization_ros2.git
+      version: main
+  lidar_slam:
+    doc:
+      type: git
+      url: https://github.com/lei01cao/lidar_slam.git
+      version: master
+  lidarbot:
+    doc:
+      type: git
+      url: https://github.com/thenoobinventor/lidarbot.git
+      version: main
+  lidarslam_ros2:
+    doc:
+      type: git
+      url: https://github.com/rsasaki0109/lidarslam_ros2.git
+      version: develop
+  light-map-navigation:
+    doc:
+      type: git
+      url: https://github.com/ei-nav/light-map-navigation.git
+      version: main
+  lightnet-trt:
+    doc:
+      type: git
+      url: https://github.com/daniel89710/lightnet-trt.git
+      version: main
+  limo_ros2:
+    doc:
+      type: git
+      url: https://github.com/agilexrobotics/limo_ros2.git
+      version: humble
+  lineturtle:
+    doc:
+      type: git
+      url: https://github.com/robofuntastic/lineturtle.git
+      version: main
+  linorobot2:
+    doc:
+      type: git
+      url: https://github.com/linorobot/linorobot2.git
+      version: humble
+  lio-sam_mid360_ros2:
+    doc:
+      type: git
+      url: https://github.com/uv-lab/lio-sam_mid360_ros2.git
+      version: main
+  livox_laser_simulation_ro2:
+    doc:
+      type: git
+      url: https://github.com/stm32f303ret6/livox_laser_simulation_ro2.git
+      version: main
+  livox_ros2_driver:
+    doc:
+      type: git
+      url: https://github.com/livox-sdk/livox_ros2_driver.git
+      version: master
+  livox_to_pointcloud2:
+    doc:
+      type: git
+      url: https://github.com/koide3/livox_to_pointcloud2.git
+      version: master
+  llama_ros:
+    doc:
+      type: git
+      url: https://github.com/mgonzs13/llama_ros.git
+      version: main
+  loc_diff:
+    doc:
+      type: git
+      url: https://github.com/gyiptgyipt/loc_diff.git
+      version: main
+  localization_for_autonomous_driving:
+    doc:
+      type: git
+      url: https://github.com/gezp/localization_for_autonomous_driving.git
+      version: humble
+  lucid_vision_driver:
+    doc:
+      type: git
+      url: https://github.com/autowarefoundation/lucid_vision_driver.git
+      version: main
+  lunabotics:
+    doc:
+      type: git
+      url: https://github.com/gofirst-robotics/lunabotics.git
+      version: main
+  lynxmotion_ssc32u:
+    doc:
+      type: git
+      url: https://github.com/smd-ros-devel/lynxmotion_ssc32u.git
+      version: master
+  m-explore-ros2:
+    doc:
+      type: git
+      url: https://github.com/robo-friends/m-explore-ros2.git
+      version: main
+  magician_ros2:
+    doc:
+      type: git
+      url: https://github.com/jkaniuka/magician_ros2.git
+      version: main
+  mailspring-sync:
+    doc:
+      type: git
+      url: https://github.com/foundry376/mailspring-sync.git
+      version: master
+  main:
+    doc:
+      type: git
+      url: https://github.com/housework-robot/main.git
+      version: main
+  makerspet_loki:
+    doc:
+      type: git
+      url: https://github.com/makerspet/makerspet_loki.git
+      version: iron
+  makerspet_snoopy:
+    doc:
+      type: git
+      url: https://github.com/makerspet/makerspet_snoopy.git
+      version: iron
+  manager:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/manager.git
+      version: rolling
+  manta_v2:
+    doc:
+      type: git
+      url: https://github.com/tasada038/manta_v2.git
+      version: master
+  manymove:
+    doc:
+      type: git
+      url: https://github.com/pastoriomarco/manymove.git
+      version: humble
+  mapless_autoware:
+    doc:
+      type: git
+      url: https://github.com/tier4/mapless_autoware.git
+      version: main
+  mapmergeformultirobotmapping-ros2:
+    doc:
+      type: git
+      url: https://github.com/abdulkadrtr/mapmergeformultirobotmapping-ros2.git
+      version: main
+  mapora:
+    doc:
+      type: git
+      url: https://github.com/leo-drive/mapora.git
+      version: main
+  mapping_controller:
+    doc:
+      type: git
+      url: https://github.com/debbynirwan/mapping_controller.git
+      version: master
+  marathon_ros2:
+    doc:
+      type: git
+      url: https://github.com/intelligentroboticslabs/marathon_ros2.git
+      version: master
+  mario:
+    doc:
+      type: git
+      url: https://github.com/sra-vjti/mario.git
+      version: humble
+  mbari_wec_gz:
+    doc:
+      type: git
+      url: https://github.com/osrf/mbari_wec_gz.git
+      version: main
+  mcap:
+    doc:
+      type: git
+      url: https://github.com/foxglove/mcap.git
+      version: main
+  mcap_editor:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/mcap_editor.git
+      version: main
+  mecanum_bot:
+    doc:
+      type: git
+      url: https://github.com/yadunund/mecanum_bot.git
+      version: main
+  megarover_samples_ros2:
+    doc:
+      type: git
+      url: https://github.com/atinfinity/megarover_samples_ros2.git
+      version: humble
+  melfa_ros2_driver:
+    doc:
+      type: git
+      url: https://github.com/mitsubishi-electric-asia/melfa_ros2_driver.git
+      version: humble
+  mep3:
+    doc:
+      type: git
+      url: https://github.com/memristor/mep3.git
+      version: main
+  merlin2:
+    doc:
+      type: git
+      url: https://github.com/merlin2-arch/merlin2.git
+      version: main
+  mesh_com:
+    doc:
+      type: git
+      url: https://github.com/tiiuae/mesh_com.git
+      version: main
+  mesh_navigation_tutorials:
+    doc:
+      type: git
+      url: https://github.com/naturerobots/mesh_navigation_tutorials.git
+      version: main
+  mesh_tools:
+    doc:
+      type: git
+      url: https://github.com/naturerobots/mesh_tools.git
+      version: humble
+  metadrive:
+    doc:
+      type: git
+      url: https://github.com/metadriverse/metadrive.git
+      version: main
+  metaisaacgrasp:
+    doc:
+      type: git
+      url: https://github.com/yitianshi/metaisaacgrasp.git
+      version: main
+  metaurban:
+    doc:
+      type: git
+      url: https://github.com/metadriverse/metaurban.git
+      version: main
+  mg400_ros2:
+    doc:
+      type: git
+      url: https://github.com/harvestx/mg400_ros2.git
+      version: humble
+  mh_amcl:
+    doc:
+      type: git
+      url: https://github.com/fmrico/mh_amcl.git
+      version: main
+  mick_robot:
+    doc:
+      type: git
+      url: https://github.com/rupingcen/mick_robot.git
+      version: master
+  micro-ros-demos:
+    doc:
+      type: git
+      url: https://github.com/micro-ros/micro-ros-demos.git
+      version: jazzy
+  micro_ros_ei:
+    doc:
+      type: git
+      url: https://github.com/avibrown/micro_ros_ei.git
+      version: main
+  micro_ros_espidf_component:
+    doc:
+      type: git
+      url: https://github.com/micro-ros/micro_ros_espidf_component.git
+      version: jazzy
+  micro_ros_mbed:
+    doc:
+      type: git
+      url: https://github.com/micro-ros/micro_ros_mbed.git
+      version: jazzy
+  micro_ros_platformio:
+    doc:
+      type: git
+      url: https://github.com/micro-ros/micro_ros_platformio.git
+      version: main
+  micro_ros_setup:
+    doc:
+      type: git
+      url: https://github.com/micro-ros/micro_ros_setup.git
+      version: jazzy
+  micro_ros_stm32cubemx_utils:
+    doc:
+      type: git
+      url: https://github.com/micro-ros/micro_ros_stm32cubemx_utils.git
+      version: jazzy
+  micro_ros_zephyr_module:
+    doc:
+      type: git
+      url: https://github.com/micro-ros/micro_ros_zephyr_module.git
+      version: jazzy
+  miivii_gmsl_camera:
+    doc:
+      type: git
+      url: https://github.com/miiviidynamics/miivii_gmsl_camera.git
+      version: master
+  mini_pupper_ros:
+    doc:
+      type: git
+      url: https://github.com/mangdangroboticsclub/mini_pupper_ros.git
+      version: ros2-dev
+  minimec-ros2:
+    doc:
+      type: git
+      url: https://github.com/maxipalay/minimec-ros2.git
+      version: main
+  minipupper_kinematics:
+    doc:
+      type: git
+      url: https://github.com/hdumcke/minipupper_kinematics.git
+      version: main
+  mirage:
+    doc:
+      type: git
+      url: https://github.com/berkeleyautomation/mirage.git
+      version: main
+  mixnet:
+    doc:
+      type: git
+      url: https://github.com/tumftm/mixnet.git
+      version: master
+  mmwave_ti_ros:
+    doc:
+      type: git
+      url: https://github.com/kimsooyoung/mmwave_ti_ros.git
+      version: master
+  mnlm:
+    doc:
+      type: git
+      url: https://github.com/small-thinking/mnlm.git
+      version: main
+  mobile-manipulator-compliance:
+    doc:
+      type: git
+      url: https://github.com/tud-amr/mobile-manipulator-compliance.git
+      version: main
+  mobile-manipulator-planning:
+    doc:
+      type: git
+      url: https://github.com/sandakalum/mobile-manipulator-planning.git
+      version: main
+  mobile-robot-navigation-using-deep-reinforcement-learning-and-ros:
+    doc:
+      type: git
+      url: https://github.com/anurye/mobile-robot-navigation-using-deep-reinforcement-learning-and-ros.git
+      version: main
+  mobile_robot_urdf_maker:
+    doc:
+      type: git
+      url: https://github.com/ali-pahlevani/mobile_robot_urdf_maker.git
+      version: main
+  mobile_robotics_ros2:
+    doc:
+      type: git
+      url: https://github.com/robotisim/mobile_robotics_ros2.git
+      version: main
+  mod_vehicle_dynamics_control:
+    doc:
+      type: git
+      url: https://github.com/tumftm/mod_vehicle_dynamics_control.git
+      version: master
+  modbus:
+    doc:
+      type: git
+      url: https://github.com/openvmp/modbus.git
+      version: main
+  modbus_rtu:
+    doc:
+      type: git
+      url: https://github.com/openvmp/modbus_rtu.git
+      version: main
+  models:
+    doc:
+      type: git
+      url: https://github.com/robotlocomotion/models.git
+      version: master
+  modern_ros2_workspace:
+    doc:
+      type: git
+      url: https://github.com/dasiths/modern_ros2_workspace.git
+      version: master
+  motion:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/motion.git
+      version: rolling
+  motion-planning-for-mobile-robots:
+    doc:
+      type: git
+      url: https://github.com/kailintong/motion-planning-for-mobile-robots.git
+      version: master
+  motoman_robotiq_grasping:
+    doc:
+      type: git
+      url: https://github.com/ryanreadbooks/motoman_robotiq_grasping.git
+      version: master
+  moveit2:
+    doc:
+      type: git
+      url: https://github.com/moveit/moveit2.git
+      version: main
+  moveit2_tutorials:
+    doc:
+      type: git
+      url: https://github.com/moveit/moveit2_tutorials.git
+      version: main
+  mpc_pid_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/lenhatquang2512/mpc_pid_ros2_control.git
+      version: master
+  mpc_planner:
+    doc:
+      type: git
+      url: https://github.com/tud-amr/mpc_planner.git
+      version: main
+  mppic:
+    doc:
+      type: git
+      url: https://github.com/artofnothingness/mppic.git
+      version: dev
+  mrp_bench:
+    doc:
+      type: git
+      url: https://github.com/boschresearch/mrp_bench.git
+      version: main
+  mujoco_ros:
+    doc:
+      type: git
+      url: https://github.com/peterdavidfagan/mujoco_ros.git
+      version: main
+  mujoco_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/moveit/mujoco_ros2_control.git
+      version: main
+  mujoco_ros2_control_examples:
+    doc:
+      type: git
+      url: https://github.com/moveit/mujoco_ros2_control_examples.git
+      version: main
+  multi-turtlebot3-gazebo-ros2:
+    doc:
+      type: git
+      url: https://github.com/taeyoung96/multi-turtlebot3-gazebo-ros2.git
+      version: master
+  multi_agent_path_finding:
+    doc:
+      type: git
+      url: https://github.com/shaswat2001/multi_agent_path_finding.git
+      version: main
+  multi_agent_pkgs:
+    doc:
+      type: git
+      url: https://github.com/lis-epfl/multi_agent_pkgs.git
+      version: master
+  multi_lica:
+    doc:
+      type: git
+      url: https://github.com/tumftm/multi_lica.git
+      version: main
+  multi_lidar_calibration_ros2:
+    doc:
+      type: git
+      url: https://github.com/pixmoving-moveit/multi_lidar_calibration_ros2.git
+      version: main
+  multi_robot_arm:
+    doc:
+      type: git
+      url: https://github.com/arshadlab/multi_robot_arm.git
+      version: master
+  multi_robot_trainer:
+    doc:
+      type: git
+      url: https://github.com/zmk5/multi_robot_trainer.git
+      version: main
+  multipanda_ros2:
+    doc:
+      type: git
+      url: https://github.com/tenfoldpaper/multipanda_ros2.git
+      version: humble
+  multiple_object_tracking_lidar_ros2:
+    doc:
+      type: git
+      url: https://github.com/aldras/multiple_object_tracking_lidar_ros2.git
+      version: main
+  multirobotexploration-robotarmy:
+    doc:
+      type: git
+      url: https://github.com/abdulkadrtr/multirobotexploration-robotarmy.git
+      version: main
+  multiverse:
+    doc:
+      type: git
+      url: https://github.com/multiverse-framework/multiverse.git
+      version: main
+  musohu-data-collection:
+    doc:
+      type: git
+      url: https://github.com/robotixx/musohu-data-collection.git
+      version: master
+  my_ros_robot:
+    doc:
+      type: git
+      url: https://github.com/fan-ziqi/my_ros_robot.git
+      version: main
+  myactuator_rmd_ros:
+    doc:
+      type: git
+      url: https://github.com/2b-t/myactuator_rmd_ros.git
+      version: main
+  mycobot_ros2:
+    doc:
+      type: git
+      url: https://github.com/elephantrobotics/mycobot_ros2.git
+      version: humble
+  nanosaur:
+    doc:
+      type: git
+      url: https://github.com/rnanosaur/nanosaur.git
+      version: nanosaur2
+  nav2_demo_turtlebot3:
+    doc:
+      type: git
+      url: https://github.com/thehummingbird/nav2_demo_turtlebot3.git
+      version: main
+  nav2_rosdevday_2021:
+    doc:
+      type: git
+      url: https://github.com/stevemacenski/nav2_rosdevday_2021.git
+      version: main
+  nav2_social_costmap_plugin:
+    doc:
+      type: git
+      url: https://github.com/robotics-upo/nav2_social_costmap_plugin.git
+      version: humble
+  nav2_wavefront_frontier_exploration:
+    doc:
+      type: git
+      url: https://github.com/seanreg/nav2_wavefront_frontier_exploration.git
+      version: main
+  nav_drone:
+    doc:
+      type: git
+      url: https://github.com/slaghuis/nav_drone.git
+      version: main
+  nav_simulator:
+    doc:
+      type: git
+      url: https://github.com/cf-zhang/nav_simulator.git
+      version: ros2
+  navigation2:
+    doc:
+      type: git
+      url: https://github.com/ros-navigation/navigation2.git
+      version: main
+  navigation2_dynamic:
+    doc:
+      type: git
+      url: https://github.com/ros-navigation/navigation2_dynamic.git
+      version: master
+  navigation2_ignition_gazebo_example:
+    doc:
+      type: git
+      url: https://github.com/art-e-fact/navigation2_ignition_gazebo_example.git
+      version: main
+  navigation2_ignition_gazebo_turtlebot3:
+    doc:
+      type: git
+      url: https://github.com/onicc/navigation2_ignition_gazebo_turtlebot3.git
+      version: main
+  navigation2_tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros-navigation/navigation2_tutorials.git
+      version: rolling
+  navigation_university:
+    doc:
+      type: git
+      url: https://github.com/metrorobots/navigation_university.git
+      version: main
+  navigator:
+    doc:
+      type: git
+      url: https://github.com/nova-utd/navigator.git
+      version: dev
+  navrl:
+    doc:
+      type: git
+      url: https://github.com/zhefan-xu/navrl.git
+      version: main
+  ndt_2d:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/ndt_2d.git
+      version: main
+  nebula:
+    doc:
+      type: git
+      url: https://github.com/tier4/nebula.git
+      version: main
+  ned_ros:
+    doc:
+      type: git
+      url: https://github.com/niryorobotics/ned_ros.git
+      version: master
+  neo_localization2:
+    doc:
+      type: git
+      url: https://github.com/neobotix/neo_localization2.git
+      version: rolling
+  neo_mpc_planner2:
+    doc:
+      type: git
+      url: https://github.com/neobotix/neo_mpc_planner2.git
+      version: rolling
+  neuronbot2:
+    doc:
+      type: git
+      url: https://github.com/adlink-ros/neuronbot2.git
+      version: humble
+  nexus:
+    doc:
+      type: git
+      url: https://github.com/osrf/nexus.git
+      version: main
+  nicegui:
+    doc:
+      type: git
+      url: https://github.com/zauberzeug/nicegui.git
+      version: main
+  nindamani-the-weed-removal-robot:
+    doc:
+      type: git
+      url: https://github.com/autoroboculture/nindamani-the-weed-removal-robot.git
+      version: master
+  nmpc_px4_ros2:
+    doc:
+      type: git
+      url: https://github.com/kousheekc/nmpc_px4_ros2.git
+      version: main
+  node_alive:
+    doc:
+      type: git
+      url: https://github.com/tue-robotics/node_alive.git
+      version: master
+  noether_roscon_2024:
+    doc:
+      type: git
+      url: https://github.com/marip8/noether_roscon_2024.git
+      version: main
+  norlab_icp_mapper_ros:
+    doc:
+      type: git
+      url: https://github.com/norlab-ulaval/norlab_icp_mapper_ros.git
+      version: ros2
+  nova_carter:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/nova_carter.git
+      version: main
+  nvblox_ros1:
+    doc:
+      type: git
+      url: https://github.com/ethz-asl/nvblox_ros1.git
+      version: main
+  o3de-extras:
+    doc:
+      type: git
+      url: https://github.com/o3de/o3de-extras.git
+      version: development
+  oakd_isaac_ros:
+    doc:
+      type: git
+      url: https://github.com/msardonini/oakd_isaac_ros.git
+      version: main
+  oasis:
+    doc:
+      type: git
+      url: https://github.com/eigendude/oasis.git
+      version: main
+  ocrtoc_software_package_legacy:
+    doc:
+      type: git
+      url: https://github.com/ocrtoc/ocrtoc_software_package_legacy.git
+      version: master
+  octomap-ros2:
+    doc:
+      type: git
+      url: https://github.com/taeyoung96/octomap-ros2.git
+      version: master
+  odas_ros:
+    doc:
+      type: git
+      url: https://github.com/introlab/odas_ros.git
+      version: ros2
+  odrive-ros2-node:
+    doc:
+      type: git
+      url: https://github.com/framework-robotics-gmbh/odrive-ros2-node.git
+      version: main
+  odrive_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/factor-robotics/odrive_ros2_control.git
+      version: humble-fw-v0.5.3
+  ofxrobotarm:
+    doc:
+      type: git
+      url: https://github.com/creativeinquiry/ofxrobotarm.git
+      version: beta.1
+  ogma:
+    doc:
+      type: git
+      url: https://github.com/nasa/ogma.git
+      version: develop
+  okvis2:
+    doc:
+      type: git
+      url: https://github.com/smartroboticslab/okvis2.git
+      version: main
+  om1:
+    doc:
+      type: git
+      url: https://github.com/openmindagi/om1.git
+      version: main
+  omnidirectional_controllers:
+    doc:
+      type: git
+      url: https://github.com/mateusmenezes95/omnidirectional_controllers.git
+      version: humble
+  omnivision:
+    doc:
+      type: git
+      url: https://github.com/blainektmo/omnivision.git
+      version: main
+  omo_r1mini-foxy:
+    doc:
+      type: git
+      url: https://github.com/omorobot/omo_r1mini-foxy.git
+      version: main
+  open-car-dynamics:
+    doc:
+      type: git
+      url: https://github.com/tumftm/open-car-dynamics.git
+      version: main
+  open_planner:
+    doc:
+      type: git
+      url: https://github.com/zatitech/open_planner.git
+      version: main
+  openbot_ros:
+    doc:
+      type: git
+      url: https://github.com/openbotpioneer/openbot_ros.git
+      version: main
+  opencv-microros-ledcontroller:
+    doc:
+      type: git
+      url: https://github.com/miguelgonrod/opencv-microros-ledcontroller.git
+      version: main
+  opencv_cam:
+    doc:
+      type: git
+      url: https://github.com/clydemcqueen/opencv_cam.git
+      version: master
+  opendr:
+    doc:
+      type: git
+      url: https://github.com/opendr-eu/opendr.git
+      version: master
+  openkai:
+    doc:
+      type: git
+      url: https://github.com/yankailab/openkai.git
+      version: master
+  openmowerros2:
+    doc:
+      type: git
+      url: https://github.com/jkaflik/openmowerros2.git
+      version: main
+  openms:
+    doc:
+      type: git
+      url: https://github.com/openms/openms.git
+      version: develop
+  opennav_amd_demonstrations:
+    doc:
+      type: git
+      url: https://github.com/open-navigation/opennav_amd_demonstrations.git
+      version: main
+  opennav_coverage:
+    doc:
+      type: git
+      url: https://github.com/open-navigation/opennav_coverage.git
+      version: main
+  openrobotics:
+    doc:
+      type: git
+      url: https://github.com/duyongquan/openrobotics.git
+      version: main
+  openscout:
+    doc:
+      type: git
+      url: https://github.com/cbedio/openscout.git
+      version: main
+  opentera-webrtc-ros:
+    doc:
+      type: git
+      url: https://github.com/introlab/opentera-webrtc-ros.git
+      version: ros2
+  openvino-driver-behaviour:
+    doc:
+      type: git
+      url: https://github.com/incluit/openvino-driver-behaviour.git
+      version: master
+  openvmp:
+    doc:
+      type: git
+      url: https://github.com/openvmp/openvmp.git
+      version: main
+  openvslam:
+    doc:
+      type: git
+      url: https://github.com/lp-research/openvslam.git
+      version: main
+  operasim-physx:
+    doc:
+      type: git
+      url: https://github.com/pwri-opera/operasim-physx.git
+      version: main
+  optical_flow_ros:
+    doc:
+      type: git
+      url: https://github.com/adityakamath/optical_flow_ros.git
+      version: main
+  orb_slam3_rgbl:
+    doc:
+      type: git
+      url: https://github.com/tumftm/orb_slam3_rgbl.git
+      version: rgbl
+  orbbecsdk_ros1:
+    doc:
+      type: git
+      url: https://github.com/orbbec/orbbecsdk_ros1.git
+      version: main
+  orbbecsdk_ros2:
+    doc:
+      type: git
+      url: https://github.com/orbbec/orbbecsdk_ros2.git
+      version: main
+  orca4:
+    doc:
+      type: git
+      url: https://github.com/clydemcqueen/orca4.git
+      version: main
+  ornis:
+    doc:
+      type: git
+      url: https://github.com/juraph-dev/ornis.git
+      version: master
+  osprey:
+    doc:
+      type: git
+      url: https://github.com/srl-ethz/osprey.git
+      version: main
+  osr-rover-code:
+    doc:
+      type: git
+      url: https://github.com/nasa-jpl/osr-rover-code.git
+      version: master
+  otter_ros:
+    doc:
+      type: git
+      url: https://github.com/offroad-robotics/otter_ros.git
+      version: main
+  ovc:
+    doc:
+      type: git
+      url: https://github.com/osrf/ovc.git
+      version: master
+  p32-fw:
+    doc:
+      type: git
+      url: https://github.com/snake-edition/p32-fw.git
+      version: main
+  packml_ros2:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial/packml_ros2.git
+      version: master
+  param_configuration:
+    doc:
+      type: git
+      url: https://github.com/karelics/param_configuration.git
+      version: main
+  parksim:
+    doc:
+      type: git
+      url: https://github.com/xushenlz/parksim.git
+      version: main
+  path-planning:
+    doc:
+      type: git
+      url: https://github.com/beomar97/path-planning.git
+      version: main
+  path-planning-algorithms:
+    doc:
+      type: git
+      url: https://github.com/maker-atom/path-planning-algorithms.git
+      version: master
+  pb2025_sentry_nav:
+    doc:
+      type: git
+      url: https://github.com/smbu-polarbear-robotics-team/pb2025_sentry_nav.git
+      version: main
+  pca9685_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/rosblox/pca9685_ros2_control.git
+      version: main
+  pcd2pgm:
+    doc:
+      type: git
+      url: https://github.com/lihanchen2004/pcd2pgm.git
+      version: master
+  pcdet_ros2:
+    doc:
+      type: git
+      url: https://github.com/pradhanshrijal/pcdet_ros2.git
+      version: master
+  pcl_apps:
+    doc:
+      type: git
+      url: https://github.com/ouxt-polaris/pcl_apps.git
+      version: master
+  pcl_example:
+    doc:
+      type: git
+      url: https://github.com/gitrepjo/pcl_example.git
+      version: main
+  pcl_type_adapter:
+    doc:
+      type: git
+      url: https://github.com/ouxt-polaris/pcl_type_adapter.git
+      version: master
+  pendulum:
+    doc:
+      type: git
+      url: https://github.com/ros2-realtime-demo/pendulum.git
+      version: rolling
+  performance_test:
+    doc:
+      type: git
+      url: https://github.com/zhenshenglee/performance_test.git
+      version: outdoor/galactic
+  person_following_robot:
+    doc:
+      type: git
+      url: https://github.com/malwaru/person_following_robot.git
+      version: main
+  person_tracking:
+    doc:
+      type: git
+      url: https://github.com/naivehobo/person_tracking.git
+      version: master
+  pfs:
+    doc:
+      type: git
+      url: https://github.com/dtrugman/pfs.git
+      version: main
+  pharao_impl:
+    doc:
+      type: git
+      url: https://github.com/joelloo/pharao_impl.git
+      version: master
+  pi_at_home:
+    doc:
+      type: git
+      url: https://github.com/apockill/pi_at_home.git
+      version: main
+  pic4rl_gym:
+    doc:
+      type: git
+      url: https://github.com/pic4ser/pic4rl_gym.git
+      version: master
+  picamera_ros2:
+    doc:
+      type: git
+      url: https://github.com/ar-ray-code/picamera_ros2.git
+      version: ros2
+  picky_robot:
+    doc:
+      type: git
+      url: https://github.com/kukanani/picky_robot.git
+      version: ros2
+  pinklab_minibot_robot:
+    doc:
+      type: git
+      url: https://github.com/byeongkyu/pinklab_minibot_robot.git
+      version: main
+  pinocchio_ros_cpp_example:
+    doc:
+      type: git
+      url: https://github.com/sea-bass/pinocchio_ros_cpp_example.git
+      version: main
+  piper_isaac_sim:
+    doc:
+      type: git
+      url: https://github.com/agilexrobotics/piper_isaac_sim.git
+      version: master
+  plankton:
+    doc:
+      type: git
+      url: https://github.com/liquid-ai/plankton.git
+      version: master
+  planning-and-control-based-on-carla-and-ros2:
+    doc:
+      type: git
+      url: https://github.com/gogogo13579/planning-and-control-based-on-carla-and-ros2.git
+      version: main
+  planning-and-learning:
+    doc:
+      type: git
+      url: https://github.com/jstyrud/planning-and-learning.git
+      version: main
+  platooning-f1tenth:
+    doc:
+      type: git
+      url: https://github.com/pmusau17/platooning-f1tenth.git
+      version: noetic-port
+  playground-lingua-franca:
+    doc:
+      type: git
+      url: https://github.com/lf-lang/playground-lingua-franca.git
+      version: main
+  playstation-joyinterface-ros2:
+    doc:
+      type: git
+      url: https://github.com/harvestx/playstation-joyinterface-ros2.git
+      version: humble
+  pointcloud_compression:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/pointcloud_compression.git
+      version: main
+  pointcloud_to_grid:
+    doc:
+      type: git
+      url: https://github.com/jkk-research/pointcloud_to_grid.git
+      version: ros2
+  polar_grid_rviz_plugins:
+    doc:
+      type: git
+      url: https://github.com/huatsai/polar_grid_rviz_plugins.git
+      version: main
+  precision_landing_shaping_rl:
+    doc:
+      type: git
+      url: https://github.com/carlo98/precision_landing_shaping_rl.git
+      version: main
+  products:
+    doc:
+      type: git
+      url: https://github.com/hipnuc/products.git
+      version: master
+  projectclifford:
+    doc:
+      type: git
+      url: https://github.com/msalaz03/projectclifford.git
+      version: master
+  projectmarch:
+    doc:
+      type: git
+      url: https://github.com/project-march/projectmarch.git
+      version: main
+  projectstarling:
+    doc:
+      type: git
+      url: https://github.com/starlinguas/projectstarling.git
+      version: master
+  prusa-firmware-buddy:
+    doc:
+      type: git
+      url: https://github.com/prusa3d/prusa-firmware-buddy.git
+      version: master
+  px4-autopilot:
+    doc:
+      type: git
+      url: https://github.com/px4/px4-autopilot.git
+      version: main
+  px4-mpc:
+    doc:
+      type: git
+      url: https://github.com/discower/px4-mpc.git
+      version: master
+  px4-ros2-gazebo-drone-simulation-template:
+    doc:
+      type: git
+      url: https://github.com/sathanbernard/px4-ros2-gazebo-drone-simulation-template.git
+      version: main
+  px4-ros2-interface-lib:
+    doc:
+      type: git
+      url: https://github.com/auterion/px4-ros2-interface-lib.git
+      version: main
+  px4_offboard_lowlevel:
+    doc:
+      type: git
+      url: https://github.com/saxionmechatronics/px4_offboard_lowlevel.git
+      version: main
+  px4_ros2_examples_ws:
+    doc:
+      type: git
+      url: https://github.com/ark-electronics/px4_ros2_examples_ws.git
+      version: main
+  px4_ros2_xrcedds:
+    doc:
+      type: git
+      url: https://github.com/viniciusabrao/px4_ros2_xrcedds.git
+      version: master
+  px4_swarm_controller:
+    doc:
+      type: git
+      url: https://github.com/artastier/px4_swarm_controller.git
+      version: master
+  px4_to_ros:
+    doc:
+      type: git
+      url: https://github.com/eprosima/px4_to_ros.git
+      version: master
+  pylivox2:
+    doc:
+      type: git
+      url: https://github.com/shirok1/pylivox2.git
+      version: main
+  pylon-ros-camera:
+    doc:
+      type: git
+      url: https://github.com/basler/pylon-ros-camera.git
+      version: jazzy
+  pyrobosim:
+    doc:
+      type: git
+      url: https://github.com/sea-bass/pyrobosim.git
+      version: main
+  pythonapi:
+    doc:
+      type: git
+      url: https://github.com/lgsvl/pythonapi.git
+      version: master
+  pytorch-onnx-trt:
+    doc:
+      type: git
+      url: https://github.com/sithu31296/pytorch-onnx-trt.git
+      version: master
+  quadruped_ros2_control:
+    doc:
+      type: git
+      url: https://github.com/legubiao/quadruped_ros2_control.git
+      version: main
+  quik:
+    doc:
+      type: git
+      url: https://github.com/steffanlloyd/quik.git
+      version: main
+  qutms_driverless:
+    doc:
+      type: git
+      url: https://github.com/qut-motorsport/qutms_driverless.git
+      version: master
+  r2r_minimal_node:
+    doc:
+      type: git
+      url: https://github.com/m-dahl/r2r_minimal_node.git
+      version: master
+  racecar_data:
+    doc:
+      type: git
+      url: https://github.com/linklab-uva/racecar_data.git
+      version: main
+  racing-lmpc-ros2:
+    doc:
+      type: git
+      url: https://github.com/mpc-berkeley/racing-lmpc-ros2.git
+      version: humble-release
+  racs2_bridge:
+    doc:
+      type: git
+      url: https://github.com/jaxa/racs2_bridge.git
+      version: main
+  radar-robotcar-dataset-ros:
+    doc:
+      type: git
+      url: https://github.com/rongxi-zhang/radar-robotcar-dataset-ros.git
+      version: ros2
+  radar_layer:
+    doc:
+      type: git
+      url: https://github.com/polymathrobotics/radar_layer.git
+      version: main
+  radar_ros_ws:
+    doc:
+      type: git
+      url: https://github.com/pagechen04/radar_ros_ws.git
+      version: main
+  radar_topometric_localization:
+    doc:
+      type: git
+      url: https://github.com/utiasasrl/radar_topometric_localization.git
+      version: master
+  rae-ros:
+    doc:
+      type: git
+      url: https://github.com/luxonis/rae-ros.git
+      version: humble
+  rai:
+    doc:
+      type: git
+      url: https://github.com/robotecai/rai.git
+      version: development
+  rai-rosbot-xl-demo:
+    doc:
+      type: git
+      url: https://github.com/robotecai/rai-rosbot-xl-demo.git
+      version: development
+  ramp:
+    doc:
+      type: git
+      url: https://github.com/samsunglabs/ramp.git
+      version: main
+  ranger_ros2:
+    doc:
+      type: git
+      url: https://github.com/agilexrobotics/ranger_ros2.git
+      version: master
+  rcl_logging_syslog:
+    doc:
+      type: git
+      url: https://github.com/fujitatomoya/rcl_logging_syslog.git
+      version: rolling
+  rclcs:
+    doc:
+      type: git
+      url: https://github.com/firesurfer/rclcs.git
+      version: master
+  rclgo:
+    doc:
+      type: git
+      url: https://github.com/tiiuae/rclgo.git
+      version: main
+  rclnet:
+    doc:
+      type: git
+      url: https://github.com/noelex/rclnet.git
+      version: main
+  rclnodejs:
+    doc:
+      type: git
+      url: https://github.com/robotwebtools/rclnodejs.git
+      version: develop
+  rclshark:
+    doc:
+      type: git
+      url: https://github.com/ar-ray-code/rclshark.git
+      version: main
+  rdsim:
+    doc:
+      type: git
+      url: https://github.com/auturbo/rdsim.git
+      version: devel/2wheel_diff
+  reachy_2023:
+    doc:
+      type: git
+      url: https://github.com/pollen-robotics/reachy_2023.git
+      version: develop
+  reactor-cpp:
+    doc:
+      type: git
+      url: https://github.com/lf-lang/reactor-cpp.git
+      version: master
+  real-time-uav-obstacle-avoidance-using-nonlinear-programming:
+    doc:
+      type: git
+      url: https://github.com/theunknowninfinite/real-time-uav-obstacle-avoidance-using-nonlinear-programming.git
+      version: main
+  realsense_ros2:
+    doc:
+      type: git
+      url: https://github.com/jdgalviss/realsense_ros2.git
+      version: main
+  reconros:
+    doc:
+      type: git
+      url: https://github.com/lien182/reconros.git
+      version: master
+  reference-system:
+    doc:
+      type: git
+      url: https://github.com/ros-realtime/reference-system.git
+      version: main
+  region-detection:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/region-detection.git
+      version: master
+  reinforcement_learning_playground:
+    doc:
+      type: git
+      url: https://github.com/wiktor-99/reinforcement_learning_playground.git
+      version: jazzy
+  remroc:
+    doc:
+      type: git
+      url: https://github.com/boschresearch/remroc.git
+      version: main
+  rerun-ros:
+    doc:
+      type: git
+      url: https://github.com/rerun-io/rerun-ros.git
+      version: main
+  rfuniverse:
+    doc:
+      type: git
+      url: https://github.com/robotflow-initiative/rfuniverse.git
+      version: main
+  rglgazeboplugin:
+    doc:
+      type: git
+      url: https://github.com/robotecai/rglgazeboplugin.git
+      version: main
+  rhea_description:
+    doc:
+      type: git
+      url: https://github.com/g-levine/rhea_description.git
+      version: main
+  riot-ros2:
+    doc:
+      type: git
+      url: https://github.com/astralien3000/riot-ros2.git
+      version: master
+  rknpu2_ros:
+    doc:
+      type: git
+      url: https://github.com/fateshelled/rknpu2_ros.git
+      version: main
+  rl-and-robot:
+    doc:
+      type: git
+      url: https://github.com/yxbeginner/rl-and-robot.git
+      version: master
+  rl_navigation:
+    doc:
+      type: git
+      url: https://github.com/zw199502/rl_navigation.git
+      version: main
+  rm_auto_aim:
+    doc:
+      type: git
+      url: https://github.com/fateryu/rm_auto_aim.git
+      version: main
+  rm_taurus_sentry_ws:
+    doc:
+      type: git
+      url: https://github.com/yifanwei1/rm_taurus_sentry_ws.git
+      version: main
+  rm_vision:
+    doc:
+      type: git
+      url: https://github.com/fateryu/rm_vision.git
+      version: main
+  rmcl:
+    doc:
+      type: git
+      url: https://github.com/uos/rmcl.git
+      version: humble
+  rmcs:
+    doc:
+      type: git
+      url: https://github.com/alliance-algorithm/rmcs.git
+      version: main
+  rmoss_contrib:
+    doc:
+      type: git
+      url: https://github.com/robomaster-oss/rmoss_contrib.git
+      version: humble
+  rmoss_core:
+    doc:
+      type: git
+      url: https://github.com/robomaster-oss/rmoss_core.git
+      version: humble
+  rmoss_gazebo:
+    doc:
+      type: git
+      url: https://github.com/robomaster-oss/rmoss_gazebo.git
+      version: humble
+  rmua19_gazebo_simulator:
+    doc:
+      type: git
+      url: https://github.com/robomaster-oss/rmua19_gazebo_simulator.git
+      version: humble
+  rmw_dps:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw_dps.git
+      version: master
+  rmw_ecal:
+    doc:
+      type: git
+      url: https://github.com/eclipse-ecal/rmw_ecal.git
+      version: master
+  rmw_email:
+    doc:
+      type: git
+      url: https://github.com/christophebedard/rmw_email.git
+      version: rolling
+  rmw_iceoryx:
+    doc:
+      type: git
+      url: https://github.com/ros2/rmw_iceoryx.git
+      version: iron
+  rmw_iceoryx2:
+    doc:
+      type: git
+      url: https://github.com/ekxide/rmw_iceoryx2.git
+      version: main
+  rmw_microxrcedds:
+    doc:
+      type: git
+      url: https://github.com/micro-ros/rmw_microxrcedds.git
+      version: jazzy
+  rmw_wasm:
+    doc:
+      type: git
+      url: https://github.com/ros2wasm/rmw_wasm.git
+      version: main
+  roarm_ws_em0:
+    doc:
+      type: git
+      url: https://github.com/waveshareteam/roarm_ws_em0.git
+      version: ros2-humble
+  robby-fischer:
+    doc:
+      type: git
+      url: https://github.com/02alexander/robby-fischer.git
+      version: main
+  robo_imitate:
+    doc:
+      type: git
+      url: https://github.com/marijagolubovic/robo_imitate.git
+      version: main
+  robochain:
+    doc:
+      type: git
+      url: https://github.com/nonejou072/robochain.git
+      version: main
+  robocup-software:
+    doc:
+      type: git
+      url: https://github.com/robojackets/robocup-software.git
+      version: ros2
+  robocup_demo:
+    doc:
+      type: git
+      url: https://github.com/boosterrobotics/robocup_demo.git
+      version: main
+  robomaster_ros:
+    doc:
+      type: git
+      url: https://github.com/jeguzzi/robomaster_ros.git
+      version: main
+  robomatrix:
+    doc:
+      type: git
+      url: https://github.com/waynemao/robomatrix.git
+      version: main
+  roboracer-3dlidar:
+    doc:
+      type: git
+      url: https://github.com/tum-avs/roboracer-3dlidar.git
+      version: main
+  robot-contorl-qt-gui-with-ros:
+    doc:
+      type: git
+      url: https://github.com/miker2808/robot-contorl-qt-gui-with-ros.git
+      version: ROS2-Foxy-Ubuntu-20.04
+  robot-formation-control:
+    doc:
+      type: git
+      url: https://github.com/lorenzobalandi/robot-formation-control.git
+      version: main
+  robot-luxo:
+    doc:
+      type: git
+      url: https://github.com/dheera/robot-luxo.git
+      version: master
+  robot-operating-system-cookbook:
+    doc:
+      type: git
+      url: https://github.com/packtpublishing/robot-operating-system-cookbook.git
+      version: master
+  robot_interfaces:
+    doc:
+      type: git
+      url: https://github.com/open-dynamic-robot-initiative/robot_interfaces.git
+      version: master
+  robot_properties_bolt:
+    doc:
+      type: git
+      url: https://github.com/open-dynamic-robot-initiative/robot_properties_bolt.git
+      version: master
+  robot_properties_solo:
+    doc:
+      type: git
+      url: https://github.com/open-dynamic-robot-initiative/robot_properties_solo.git
+      version: master
+  robotic_arm_environment:
+    doc:
+      type: git
+      url: https://github.com/dvalenciar/robotic_arm_environment.git
+      version: main
+  robotics-and-ros-2-learn-by-doing-manipulators:
+    doc:
+      type: git
+      url: https://github.com/antobrandi/robotics-and-ros-2-learn-by-doing-manipulators.git
+      version: main
+  robotics-nav2-slam-example:
+    doc:
+      type: git
+      url: https://github.com/unity-technologies/robotics-nav2-slam-example.git
+      version: main
+  robotics-playground:
+    doc:
+      type: git
+      url: https://github.com/sakshaymahna/robotics-playground.git
+      version: main
+  robotics-prototype:
+    doc:
+      type: git
+      url: https://github.com/space-concordia-robotics/robotics-prototype.git
+      version: master
+  robotics-ui:
+    doc:
+      type: git
+      url: https://github.com/sciotaio/robotics-ui.git
+      version: main
+  robotics_demos:
+    doc:
+      type: git
+      url: https://github.com/thehummingbird/robotics_demos.git
+      version: main
+  robotics_essentials_ros2:
+    doc:
+      type: git
+      url: https://github.com/henki-robotics/robotics_essentials_ros2.git
+      version: main
+  robotics_fundamentals_ros_gazebo:
+    doc:
+      type: git
+      url: https://github.com/andreasbihlmaier/robotics_fundamentals_ros_gazebo.git
+      version: main
+  robotics_software_engineer:
+    doc:
+      type: git
+      url: https://github.com/robotisim/robotics_software_engineer.git
+      version: main
+  robotics_v1:
+    doc:
+      type: git
+      url: https://github.com/zhivkopetrov/robotics_v1.git
+      version: master
+  roboticsacademy:
+    doc:
+      type: git
+      url: https://github.com/jderobot/roboticsacademy.git
+      version: humble-devel
+  roboticsinfrastructure:
+    doc:
+      type: git
+      url: https://github.com/jderobot/roboticsinfrastructure.git
+      version: humble-devel
+  roboticslanguage:
+    doc:
+      type: git
+      url: https://github.com/robotcaresystems/roboticslanguage.git
+      version: development
+  robotimpedancemodulation:
+    doc:
+      type: git
+      url: https://github.com/advrhumanoids/robotimpedancemodulation.git
+      version: main
+  robotlearningblock:
+    doc:
+      type: git
+      url: https://github.com/peterso/robotlearningblock.git
+      version: main
+  robovision_ros2:
+    doc:
+      type: git
+      url: https://github.com/artenshi/robovision_ros2.git
+      version: main
+  rondb:
+    doc:
+      type: git
+      url: https://github.com/logicalclocks/rondb.git
+      version: 24.10-main
+  ros-2-from-scratch:
+    doc:
+      type: git
+      url: https://github.com/packtpublishing/ros-2-from-scratch.git
+      version: main
+  ros-d2:
+    doc:
+      type: git
+      url: https://github.com/greenroom-robotics/ros-d2.git
+      version: main
+  ros-g29-force-feedback:
+    doc:
+      type: git
+      url: https://github.com/kuriatsu/ros-g29-force-feedback.git
+      version: master
+  ros-gst-bridge:
+    doc:
+      type: git
+      url: https://github.com/brettrd/ros-gst-bridge.git
+      version: develop
+  ros-imu-bno055:
+    doc:
+      type: git
+      url: https://github.com/dheera/ros-imu-bno055.git
+      version: master
+  ros-llm:
+    doc:
+      type: git
+      url: https://github.com/auromix/ros-llm.git
+      version: ros2-humble
+  ros-nav-platform:
+    doc:
+      type: git
+      url: https://github.com/ppap36/ros-nav-platform.git
+      version: main
+  ros-navigation-noetic:
+    doc:
+      type: git
+      url: https://github.com/felderstehost/ros-navigation-noetic.git
+      version: main
+  ros-navigation-rrt:
+    doc:
+      type: git
+      url: https://github.com/mkjia/ros-navigation-rrt.git
+      version: master
+  ros-robotics-projects-secondedition:
+    doc:
+      type: git
+      url: https://github.com/packtpublishing/ros-robotics-projects-secondedition.git
+      version: master
+  ros-ros2-books:
+    doc:
+      type: git
+      url: https://github.com/lovelyyoshino/ros-ros2-books.git
+      version: main
+  ros-sharp:
+    doc:
+      type: git
+      url: https://github.com/siemens/ros-sharp.git
+      version: master
+  ros-useful-tools:
+    doc:
+      type: git
+      url: https://github.com/scepter914/ros-useful-tools.git
+      version: main
+  ros-voice-assistant:
+    doc:
+      type: git
+      url: https://github.com/victorcarvesk/ros-voice-assistant.git
+      version: main
+  ros2-ackermann-vehicle-gz-sim-harmonic-nav2:
+    doc:
+      type: git
+      url: https://github.com/alitekes1/ros2-ackermann-vehicle-gz-sim-harmonic-nav2.git
+      version: main
+  ros2-aruco-pose-estimation:
+    doc:
+      type: git
+      url: https://github.com/airlab-polimi/ros2-aruco-pose-estimation.git
+      version: main
+  ros2-autonomous-driving-and-navigation-slam-with-turtlebot3:
+    doc:
+      type: git
+      url: https://github.com/noshluk2/ros2-autonomous-driving-and-navigation-slam-with-turtlebot3.git
+      version: master
+  ros2-bagutils:
+    doc:
+      type: git
+      url: https://github.com/box-robotics/ros2-bagutils.git
+      version: foxy-devel
+  ros2-code-examples:
+    doc:
+      type: git
+      url: https://github.com/alsora/ros2-code-examples.git
+      version: master
+  ros2-drl-turtlebot3-like-lidar-robot:
+    doc:
+      type: git
+      url: https://github.com/amjadmajid/ros2-drl-turtlebot3-like-lidar-robot.git
+      version: main
+  ros2-drone-basic-course-for-beginners:
+    doc:
+      type: git
+      url: https://github.com/noshluk2/ros2-drone-basic-course-for-beginners.git
+      version: master
+  ros2-essentials:
+    doc:
+      type: git
+      url: https://github.com/j3soon/ros2-essentials.git
+      version: main
+  ros2-examples:
+    doc:
+      type: git
+      url: https://github.com/intelligentsystemslabutv/ros2-examples.git
+      version: humble
+  ros2-foxy-wearable-biosensors:
+    doc:
+      type: git
+      url: https://github.com/smartlab-purdue/ros2-foxy-wearable-biosensors.git
+      version: master
+  ros2-frontierbaseexplorationforautonomousrobot:
+    doc:
+      type: git
+      url: https://github.com/abdulkadrtr/ros2-frontierbaseexplorationforautonomousrobot.git
+      version: main
+  ros2-hoverboard-driver:
+    doc:
+      type: git
+      url: https://github.com/victorfdezc/ros2-hoverboard-driver.git
+      version: main
+  ros2-igt:
+    doc:
+      type: git
+      url: https://github.com/acceleration-robotics/ros2-igt.git
+      version: main
+  ros2-integration-testing-examples:
+    doc:
+      type: git
+      url: https://github.com/abaeyens/ros2-integration-testing-examples.git
+      version: main
+  ros2-lifecycle-monitoring:
+    doc:
+      type: git
+      url: https://github.com/dimaxano/ros2-lifecycle-monitoring.git
+      version: ros2
+  ros2-line-follower:
+    doc:
+      type: git
+      url: https://github.com/gabrielnhn/ros2-line-follower.git
+      version: main
+  ros2-mecanum-bot:
+    doc:
+      type: git
+      url: https://github.com/deborggraever/ros2-mecanum-bot.git
+      version: main
+  ros2-mocap_optitrack:
+    doc:
+      type: git
+      url: https://github.com/tud-phi/ros2-mocap_optitrack.git
+      version: main
+  ros2-nanoowl:
+    doc:
+      type: git
+      url: https://github.com/nvidia-ai-iot/ros2-nanoowl.git
+      version: master
+  ros2-octomap-depth-mapping:
+    doc:
+      type: git
+      url: https://github.com/berkealgul/ros2-octomap-depth-mapping.git
+      version: master
+  ros2-opcua:
+    doc:
+      type: git
+      url: https://github.com/mariunil/ros2-opcua.git
+      version: master
+  ros2-orb_slam2:
+    doc:
+      type: git
+      url: https://github.com/alsora/ros2-orb_slam2.git
+      version: master
+  ros2-path-planning-and-maze-solving:
+    doc:
+      type: git
+      url: https://github.com/haiderabasi/ros2-path-planning-and-maze-solving.git
+      version: master
+  ros2-path-planning-turtlebot3-potential-field:
+    doc:
+      type: git
+      url: https://github.com/tim-hw/ros2-path-planning-turtlebot3-potential-field.git
+      version: main
+  ros2-performance:
+    doc:
+      type: git
+      url: https://github.com/irobot-ros/ros2-performance.git
+      version: rolling
+  ros2-picas:
+    doc:
+      type: git
+      url: https://github.com/rtenlab/ros2-picas.git
+      version: main
+  ros2-pkg-create:
+    doc:
+      type: git
+      url: https://github.com/ika-rwth-aachen/ros2-pkg-create.git
+      version: main
+  ros2-point-cloud-clustering-and-segmentation-for-autonomous-behaviour:
+    doc:
+      type: git
+      url: https://github.com/noshluk2/ros2-point-cloud-clustering-and-segmentation-for-autonomous-behaviour.git
+      version: main
+  ros2-point-cloud-demo:
+    doc:
+      type: git
+      url: https://github.com/sebastiangrans/ros2-point-cloud-demo.git
+      version: master
+  ros2-project-template:
+    doc:
+      type: git
+      url: https://github.com/tier4/ros2-project-template.git
+      version: main
+  ros2-purepursuitcontrol-pathplanning-tracking:
+    doc:
+      type: git
+      url: https://github.com/abdulkadrtr/ros2-purepursuitcontrol-pathplanning-tracking.git
+      version: main
+  ros2-raspberry-pi-intelligent-vision-robot:
+    doc:
+      type: git
+      url: https://github.com/noshluk2/ros2-raspberry-pi-intelligent-vision-robot.git
+      version: main
+  ros2-realtime-examples:
+    doc:
+      type: git
+      url: https://github.com/ros-realtime/ros2-realtime-examples.git
+      version: rolling
+  ros2-sectest:
+    doc:
+      type: git
+      url: https://github.com/aws-robotics/ros2-sectest.git
+      version: master
+  ros2-self-driving-car-ai-using-opencv:
+    doc:
+      type: git
+      url: https://github.com/noshluk2/ros2-self-driving-car-ai-using-opencv.git
+      version: main
+  ros2-seminar-examples:
+    doc:
+      type: git
+      url: https://github.com/robotpilot/ros2-seminar-examples.git
+      version: main
+  ros2-seminar-testing-sample:
+    doc:
+      type: git
+      url: https://github.com/fixstars/ros2-seminar-testing-sample.git
+      version: main
+  ros2-slam-auto-navigation:
+    doc:
+      type: git
+      url: https://github.com/taherfattahi/ros2-slam-auto-navigation.git
+      version: master
+  ros2-tensorflow:
+    doc:
+      type: git
+      url: https://github.com/alsora/ros2-tensorflow.git
+      version: master
+  ros2-tools-to-use-unity-like-gazebo:
+    doc:
+      type: git
+      url: https://github.com/hijimasa/ros2-tools-to-use-unity-like-gazebo.git
+      version: main
+  ros2-ublox-zedf9p:
+    doc:
+      type: git
+      url: https://github.com/gokulp01/ros2-ublox-zedf9p.git
+      version: master
+  ros2-ultimate-course-for-beginners:
+    doc:
+      type: git
+      url: https://github.com/noshluk2/ros2-ultimate-course-for-beginners.git
+      version: main
+  ros2-ultimate-guide-for-custom-robotic-arms-and-kuka-kr210:
+    doc:
+      type: git
+      url: https://github.com/noshluk2/ros2-ultimate-guide-for-custom-robotic-arms-and-kuka-kr210.git
+      version: main
+  ros2-ultimate-guide-for-custom-robotic-arms-and-panda-7-dof:
+    doc:
+      type: git
+      url: https://github.com/noshluk2/ros2-ultimate-guide-for-custom-robotic-arms-and-panda-7-dof.git
+      version: master
+  ros2-ultimate-learners-repository:
+    doc:
+      type: git
+      url: https://github.com/noshluk2/ros2-ultimate-learners-repository.git
+      version: main
+  ros2-ultimate-mobile-robotics-course-for-beginners-opencv:
+    doc:
+      type: git
+      url: https://github.com/noshluk2/ros2-ultimate-mobile-robotics-course-for-beginners-opencv.git
+      version: main
+  ros2-urdf-tutorial:
+    doc:
+      type: git
+      url: https://github.com/benbongalon/ros2-urdf-tutorial.git
+      version: master
+  ros2-vicon-receiver:
+    doc:
+      type: git
+      url: https://github.com/opt4smart/ros2-vicon-receiver.git
+      version: master
+  ros2_21_tutorials:
+    doc:
+      type: git
+      url: https://github.com/guyuehome/ros2_21_tutorials.git
+      version: master
+  ros2_arduino_bridge:
+    doc:
+      type: git
+      url: https://github.com/damuxt/ros2_arduino_bridge.git
+      version: main
+  ros2_astra_camera:
+    doc:
+      type: git
+      url: https://github.com/kavenyau/ros2_astra_camera.git
+      version: main
+  ros2_basic:
+    doc:
+      type: git
+      url: https://github.com/pinkwink/ros2_basic.git
+      version: main
+  ros2_behavior_tree_example:
+    doc:
+      type: git
+      url: https://github.com/polymathrobotics/ros2_behavior_tree_example.git
+      version: main
+  ros2_benchmark:
+    doc:
+      type: git
+      url: https://github.com/nvidia-isaac-ros/ros2_benchmark.git
+      version: main
+  ros2_bevfusion_demo:
+    doc:
+      type: git
+      url: https://github.com/seunghwi0613/ros2_bevfusion_demo.git
+      version: main
+  ros2_camera_lidar_fusion:
+    doc:
+      type: git
+      url: https://github.com/cdonosok/ros2_camera_lidar_fusion.git
+      version: main
+  ros2_cmv:
+    doc:
+      type: git
+      url: https://github.com/suchetanrs/ros2_cmv.git
+      version: master
+  ros2_computer_vision:
+    doc:
+      type: git
+      url: https://github.com/jmguerreroh/ros2_computer_vision.git
+      version: ros2-humble
+  ros2_control_custom_hardware_interface:
+    doc:
+      type: git
+      url: https://github.com/masum919/ros2_control_custom_hardware_interface.git
+      version: main
+  ros2_control_demos:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/ros2_control_demos.git
+      version: master
+  ros2_data_collection:
+    doc:
+      type: git
+      url: https://github.com/minipada/ros2_data_collection.git
+      version: humble
+  ros2_deepstream:
+    doc:
+      type: git
+      url: https://github.com/nvidia-ai-iot/ros2_deepstream.git
+      version: main
+  ros2_docker_examples:
+    doc:
+      type: git
+      url: https://github.com/dominikn/ros2_docker_examples.git
+      version: main
+  ros2_dotnet:
+    doc:
+      type: git
+      url: https://github.com/ros2-dotnet/ros2_dotnet.git
+      version: main
+  ros2_epick_gripper:
+    doc:
+      type: git
+      url: https://github.com/picknikrobotics/ros2_epick_gripper.git
+      version: main
+  ros2_examples:
+    doc:
+      type: git
+      url: https://github.com/ctu-mrs/ros2_examples.git
+      version: master
+  ros2_explorer:
+    doc:
+      type: git
+      url: https://github.com/danigarcialopez/ros2_explorer.git
+      version: main
+  ros2_fanuc_interface:
+    doc:
+      type: git
+      url: https://github.com/paolofrance/ros2_fanuc_interface.git
+      version: paolo
+  ros2_for_beginners_code:
+    doc:
+      type: git
+      url: https://github.com/homalozoa/ros2_for_beginners_code.git
+      version: main
+  ros2_gmapping:
+    doc:
+      type: git
+      url: https://github.com/siddarth09/ros2_gmapping.git
+      version: main
+  ros2_humble_for_mac_m1:
+    doc:
+      type: git
+      url: https://github.com/jiafeng-1/ros2_humble_for_mac_m1.git
+      version: main
+  ros2_ipcamera:
+    doc:
+      type: git
+      url: https://github.com/surfertas/ros2_ipcamera.git
+      version: master
+  ros2_java:
+    doc:
+      type: git
+      url: https://github.com/ros2-java/ros2_java.git
+      version: main
+  ros2_jetson_stats:
+    doc:
+      type: git
+      url: https://github.com/nvidia-ai-iot/ros2_jetson_stats.git
+      version: humble
+  ros2_kitti:
+    doc:
+      type: git
+      url: https://github.com/junmeng6025/ros2_kitti.git
+      version: main
+  ros2_kitti_publishers:
+    doc:
+      type: git
+      url: https://github.com/umtclskn/ros2_kitti_publishers.git
+      version: main
+  ros2_laser_scan_matcher:
+    doc:
+      type: git
+      url: https://github.com/alexkaravaev/ros2_laser_scan_matcher.git
+      version: main
+  ros2_laser_scan_merger:
+    doc:
+      type: git
+      url: https://github.com/mich1342/ros2_laser_scan_merger.git
+      version: main
+  ros2_latency_evaluation:
+    doc:
+      type: git
+      url: https://github.com/barkhausen-institut/ros2_latency_evaluation.git
+      version: main
+  ros2_learners:
+    doc:
+      type: git
+      url: https://github.com/noshluk2/ros2_learners.git
+      version: main
+  ros2_learning:
+    doc:
+      type: git
+      url: https://github.com/dottantgal/ros2_learning.git
+      version: humble
+  ros2_leg_detector:
+    doc:
+      type: git
+      url: https://github.com/mowito/ros2_leg_detector.git
+      version: main
+  ros2_logging_fmt:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/ros2_logging_fmt.git
+      version: master
+  ros2_metafly:
+    doc:
+      type: git
+      url: https://github.com/gogiputtar/ros2_metafly.git
+      version: ros2/iron
+  ros2_mpu6050_driver:
+    doc:
+      type: git
+      url: https://github.com/hiwad-aziz/ros2_mpu6050_driver.git
+      version: main
+  ros2_mpu9250_driver:
+    doc:
+      type: git
+      url: https://github.com/hiwad-aziz/ros2_mpu9250_driver.git
+      version: main
+  ros2_multi_agent_passage:
+    doc:
+      type: git
+      url: https://github.com/proroklab/ros2_multi_agent_passage.git
+      version: main
+  ros2_nanollm:
+    doc:
+      type: git
+      url: https://github.com/nvidia-ai-iot/ros2_nanollm.git
+      version: main
+  ros2_net_ft_driver:
+    doc:
+      type: git
+      url: https://github.com/gbartyzel/ros2_net_ft_driver.git
+      version: rolling
+  ros2_objc:
+    doc:
+      type: git
+      url: https://github.com/esteve/ros2_objc.git
+      version: master
+  ros2_offboard_drone_control:
+    doc:
+      type: git
+      url: https://github.com/marnonel6/ros2_offboard_drone_control.git
+      version: main
+  ros2_openvino_toolkit:
+    doc:
+      type: git
+      url: https://github.com/intel/ros2_openvino_toolkit.git
+      version: master
+  ros2_orb_slam3:
+    doc:
+      type: git
+      url: https://github.com/mechazo11/ros2_orb_slam3.git
+      version: main
+  ros2_orbslam3:
+    doc:
+      type: git
+      url: https://github.com/curryc/ros2_orbslam3.git
+      version: master
+  ros2_patrol_robot:
+    doc:
+      type: git
+      url: https://github.com/fishros/ros2_patrol_robot.git
+      version: master
+  ros2_pcl_object_detection:
+    doc:
+      type: git
+      url: https://github.com/klintan/ros2_pcl_object_detection.git
+      version: master
+  ros2_pcl_segmentation:
+    doc:
+      type: git
+      url: https://github.com/cdonosok/ros2_pcl_segmentation.git
+      version: main
+  ros2_performance:
+    doc:
+      type: git
+      url: https://github.com/nobleo/ros2_performance.git
+      version: master
+  ros2_persist_parameter_server:
+    doc:
+      type: git
+      url: https://github.com/fujitatomoya/ros2_persist_parameter_server.git
+      version: rolling
+  ros2_pi_gpio:
+    doc:
+      type: git
+      url: https://github.com/mlherd/ros2_pi_gpio.git
+      version: master
+  ros2_pick_and_place_ur5:
+    doc:
+      type: git
+      url: https://github.com/juotungchen/ros2_pick_and_place_ur5.git
+      version: master
+  ros2_pid_autotuning_vrft:
+    doc:
+      type: git
+      url: https://github.com/karicontrol/ros2_pid_autotuning_vrft.git
+      version: main
+  ros2_pid_library:
+    doc:
+      type: git
+      url: https://github.com/dottantgal/ros2_pid_library.git
+      version: main
+  ros2_pigpio:
+    doc:
+      type: git
+      url: https://github.com/botamochi6277/ros2_pigpio.git
+      version: main
+  ros2_planning_system_examples:
+    doc:
+      type: git
+      url: https://github.com/plansys2/ros2_planning_system_examples.git
+      version: rolling
+  ros2_profiling:
+    doc:
+      type: git
+      url: https://github.com/safe-ros/ros2_profiling.git
+      version: main
+  ros2_qt_demo:
+    doc:
+      type: git
+      url: https://github.com/chengyangkj/ros2_qt_demo.git
+      version: master
+  ros2_quad_sim_python:
+    doc:
+      type: git
+      url: https://github.com/ricardodeazambuja/ros2_quad_sim_python.git
+      version: main
+  ros2_rm_robot:
+    doc:
+      type: git
+      url: https://github.com/realmanrobot/ros2_rm_robot.git
+      version: humble
+  ros2_robotarium:
+    doc:
+      type: git
+      url: https://github.com/zmk5/ros2_robotarium.git
+      version: master
+  ros2_robotsimulation:
+    doc:
+      type: git
+      url: https://github.com/ifra-cranfield/ros2_robotsimulation.git
+      version: foxy
+  ros2_ros_bt_py:
+    doc:
+      type: git
+      url: https://github.com/fzi-forschungszentrum-informatik/ros2_ros_bt_py.git
+      version: main
+  ros2_rover:
+    doc:
+      type: git
+      url: https://github.com/mgonzs13/ros2_rover.git
+      version: humble
+  ros2_rs_pcl:
+    doc:
+      type: git
+      url: https://github.com/tasada038/ros2_rs_pcl.git
+      version: master
+  ros2_rust:
+    doc:
+      type: git
+      url: https://github.com/ros2-rust/ros2_rust.git
+      version: main
+  ros2_sam:
+    doc:
+      type: git
+      url: https://github.com/ros-ai/ros2_sam.git
+      version: main
+  ros2_serial_example:
+    doc:
+      type: git
+      url: https://github.com/osrf/ros2_serial_example.git
+      version: master
+  ros2_serial_interface:
+    doc:
+      type: git
+      url: https://github.com/anrdyshmrdy/ros2_serial_interface.git
+      version: main
+  ros2_shm_demo:
+    doc:
+      type: git
+      url: https://github.com/apexai/ros2_shm_demo.git
+      version: main
+  ros2_simrealrobotcontrol:
+    doc:
+      type: git
+      url: https://github.com/ifra-cranfield/ros2_simrealrobotcontrol.git
+      version: humble
+  ros2_tao_pointpillars:
+    doc:
+      type: git
+      url: https://github.com/nvidia-ai-iot/ros2_tao_pointpillars.git
+      version: main
+  ros2_tcp_tunnel:
+    doc:
+      type: git
+      url: https://github.com/norlab-ulaval/ros2_tcp_tunnel.git
+      version: humble
+  ros2_timer_latency_measurement:
+    doc:
+      type: git
+      url: https://github.com/hsgwa/ros2_timer_latency_measurement.git
+      version: master
+  ros2_torch2trt_examples:
+    doc:
+      type: git
+      url: https://github.com/nvidia-ai-iot/ros2_torch2trt_examples.git
+      version: main
+  ros2_torch_trt:
+    doc:
+      type: git
+      url: https://github.com/nvidia-ai-iot/ros2_torch_trt.git
+      version: master
+  ros2_town:
+    doc:
+      type: git
+      url: https://github.com/fishros/ros2_town.git
+      version: master
+  ros2_trt_pose:
+    doc:
+      type: git
+      url: https://github.com/nvidia-ai-iot/ros2_trt_pose.git
+      version: main
+  ros2_trt_pose_hand:
+    doc:
+      type: git
+      url: https://github.com/nvidia-ai-iot/ros2_trt_pose_hand.git
+      version: main
+  ros2_tutorial:
+    doc:
+      type: git
+      url: https://github.com/uos/ros2_tutorial.git
+      version: main
+  ros2_usb_camera:
+    doc:
+      type: git
+      url: https://github.com/klintan/ros2_usb_camera.git
+      version: foxy-devel
+  ros2_video_streamer:
+    doc:
+      type: git
+      url: https://github.com/klintan/ros2_video_streamer.git
+      version: master
+  ros2_vision_inference:
+    doc:
+      type: git
+      url: https://github.com/owen-liuyuxuan/ros2_vision_inference.git
+      version: onnx
+  ros2_walking_pattern_generator:
+    doc:
+      type: git
+      url: https://github.com/open-rdc/ros2_walking_pattern_generator.git
+      version: issue_solution
+  ros2_whill_applications:
+    doc:
+      type: git
+      url: https://github.com/whill-labs/ros2_whill_applications.git
+      version: main
+  ros2_whisper:
+    doc:
+      type: git
+      url: https://github.com/ros-ai/ros2_whisper.git
+      version: main
+  ros2ai:
+    doc:
+      type: git
+      url: https://github.com/fujitatomoya/ros2ai.git
+      version: rolling
+  ros2bag_convert:
+    doc:
+      type: git
+      url: https://github.com/fishros/ros2bag_convert.git
+      version: main
+  ros2bag_extensions:
+    doc:
+      type: git
+      url: https://github.com/tier4/ros2bag_extensions.git
+      version: main
+  ros2bag_tools:
+    doc:
+      type: git
+      url: https://github.com/ait-assistive-autonomous-systems/ros2bag_tools.git
+      version: master
+  ros2bestpractice:
+    doc:
+      type: git
+      url: https://github.com/ahmettcelik1/ros2bestpractice.git
+      version: main
+  ros2bookcode:
+    doc:
+      type: git
+      url: https://github.com/fishros/ros2bookcode.git
+      version: master
+  ros2can_bridge:
+    doc:
+      type: git
+      url: https://github.com/ros4space/ros2can_bridge.git
+      version: master
+  ros2cs:
+    doc:
+      type: git
+      url: https://github.com/robotecai/ros2cs.git
+      version: develop
+  ros2eloquent_catkin_ws:
+    doc:
+      type: git
+      url: https://github.com/iamrajee/ros2eloquent_catkin_ws.git
+      version: master
+  ros2eloquent_moveit_ws:
+    doc:
+      type: git
+      url: https://github.com/iamrajee/ros2eloquent_moveit_ws.git
+      version: master
+  ros2go2estimator:
+    doc:
+      type: git
+      url: https://github.com/shineminxing/ros2go2estimator.git
+      version: main
+  ros2launch_gui:
+    doc:
+      type: git
+      url: https://github.com/rolker/ros2launch_gui.git
+      version: ros2
+  ros2swarm:
+    doc:
+      type: git
+      url: https://github.com/ros2swarm/ros2swarm.git
+      version: master
+  ros2webots:
+    doc:
+      type: git
+      url: https://github.com/mjavadzallaghi/ros2webots.git
+      version: main
+  ros_2_android:
+    doc:
+      type: git
+      url: https://github.com/mirellameelo/ros_2_android.git
+      version: master
+  ros_babel_fish:
+    doc:
+      type: git
+      url: https://github.com/loewe-emergencity/ros_babel_fish.git
+      version: jazzy
+  ros_exploring:
+    doc:
+      type: git
+      url: https://github.com/huchunxu/ros_exploring.git
+      version: master
+  ros_gazebo_navigation:
+    doc:
+      type: git
+      url: https://github.com/feilonghonghong/ros_gazebo_navigation.git
+      version: main
+  ros_gz_rover:
+    doc:
+      type: git
+      url: https://github.com/srmainwaring/ros_gz_rover.git
+      version: main
+  ros_handson_packages:
+    doc:
+      type: git
+      url: https://github.com/ouxt-polaris/ros_handson_packages.git
+      version: master
+  ros_health_components:
+    doc:
+      type: git
+      url: https://github.com/bonsairobotics/ros_health_components.git
+      version: main
+  ros_motion_planning:
+    doc:
+      type: git
+      url: https://github.com/ai-winter/ros_motion_planning.git
+      version: master
+  ros_network_viz:
+    doc:
+      type: git
+      url: https://github.com/ros2/ros_network_viz.git
+      version: master
+  ros_nextjs_pkg:
+    doc:
+      type: git
+      url: https://github.com/armando-genis/ros_nextjs_pkg.git
+      version: main
+  ros_odrive:
+    doc:
+      type: git
+      url: https://github.com/odriverobotics/ros_odrive.git
+      version: main
+  ros_robottle:
+    doc:
+      type: git
+      url: https://github.com/arthurbricq/ros_robottle.git
+      version: main
+  ros_testing_templates:
+    doc:
+      type: git
+      url: https://github.com/picknikrobotics/ros_testing_templates.git
+      version: ros2
+  ros_to_ros2_talk_examples:
+    doc:
+      type: git
+      url: https://github.com/fmrico/ros_to_ros2_talk_examples.git
+      version: master
+  ros_utilities:
+    doc:
+      type: git
+      url: https://github.com/bdaiinstitute/ros_utilities.git
+      version: main
+  ros_ws:
+    doc:
+      type: git
+      url: https://github.com/bharath5673/ros_ws.git
+      version: main
+  rosbag2_snapshot:
+    doc:
+      type: git
+      url: https://github.com/gaia-platform/rosbag2_snapshot.git
+      version: main
+  rosbag2_to_pcd:
+    doc:
+      type: git
+      url: https://github.com/xmfcx/rosbag2_to_pcd.git
+      version: main
+  rosboard:
+    doc:
+      type: git
+      url: https://github.com/dheera/rosboard.git
+      version: main
+  rosboard_client:
+    doc:
+      type: git
+      url: https://github.com/kiwicampus/rosboard_client.git
+      version: main
+  rosbot:
+    doc:
+      type: git
+      url: https://github.com/kallaspriit/rosbot.git
+      version: main
+  rosbot_ros:
+    doc:
+      type: git
+      url: https://github.com/husarion/rosbot_ros.git
+      version: jazzy
+  rosbot_xl_ros:
+    doc:
+      type: git
+      url: https://github.com/husarion/rosbot_xl_ros.git
+      version: master
+  roscon-2023-realtime-workshop:
+    doc:
+      type: git
+      url: https://github.com/ros-realtime/roscon-2023-realtime-workshop.git
+      version: main
+  roscon2022_workshop:
+    doc:
+      type: git
+      url: https://github.com/ros-controls/roscon2022_workshop.git
+      version: master
+  roscon2023demo:
+    doc:
+      type: git
+      url: https://github.com/robotecai/roscon2023demo.git
+      version: development
+  roscon24-workshop:
+    doc:
+      type: git
+      url: https://github.com/ros-wg-delib/roscon24-workshop.git
+      version: main
+  roscon_workshop:
+    doc:
+      type: git
+      url: https://github.com/open-rmf/roscon_workshop.git
+      version: main
+  roscondemo:
+    doc:
+      type: git
+      url: https://github.com/o3de/roscondemo.git
+      version: main
+  rosetta_launch:
+    doc:
+      type: git
+      url: https://github.com/metrorobots/rosetta_launch.git
+      version: main
+  rosgpt:
+    doc:
+      type: git
+      url: https://github.com/aniskoubaa/rosgpt.git
+      version: main
+  rosgpt_vision:
+    doc:
+      type: git
+      url: https://github.com/bilel-bj/rosgpt_vision.git
+      version: main
+  rosidl_typesupport_protobuf:
+    doc:
+      type: git
+      url: https://github.com/eclipse-ecal/rosidl_typesupport_protobuf.git
+      version: master
+  roskinetic_catkin_ws:
+    doc:
+      type: git
+      url: https://github.com/iamrajee/roskinetic_catkin_ws.git
+      version: master
+  roslibdart:
+    doc:
+      type: git
+      url: https://github.com/tmtong/roslibdart.git
+      version: main
+  rosplane:
+    doc:
+      type: git
+      url: https://github.com/rosflight/rosplane.git
+      version: main
+  rospy2:
+    doc:
+      type: git
+      url: https://github.com/dheera/rospy2.git
+      version: main
+  rosrust:
+    doc:
+      type: git
+      url: https://github.com/adnanademovic/rosrust.git
+      version: master
+  rossdl:
+    doc:
+      type: git
+      url: https://github.com/coresenseeu/rossdl.git
+      version: rolling
+  rosshow:
+    doc:
+      type: git
+      url: https://github.com/dheera/rosshow.git
+      version: main
+  rotools:
+    doc:
+      type: git
+      url: https://github.com/drawzeropoint/rotools.git
+      version: master
+  roverrobotics_ros2:
+    doc:
+      type: git
+      url: https://github.com/roverrobotics-archive/roverrobotics_ros2.git
+      version: foxy
+  rpi-robot-ros-foxy:
+    doc:
+      type: git
+      url: https://github.com/tabris2015/rpi-robot-ros-foxy.git
+      version: master
+  rrtplanner:
+    doc:
+      type: git
+      url: https://github.com/naivehobo/rrtplanner.git
+      version: master
+  rse_prob_robotics:
+    doc:
+      type: git
+      url: https://github.com/carlos-argueta/rse_prob_robotics.git
+      version: main
+  rtk_gps_ntrip:
+    doc:
+      type: git
+      url: https://github.com/olvdhrm/rtk_gps_ntrip.git
+      version: main
+  rtrc:
+    doc:
+      type: git
+      url: https://github.com/airguanz/rtrc.git
+      version: main
+  rtt_ros2_integration:
+    doc:
+      type: git
+      url: https://github.com/orocos/rtt_ros2_integration.git
+      version: master
+  rviz_birdeye_display:
+    doc:
+      type: git
+      url: https://github.com/teamspatzenhirn/rviz_birdeye_display.git
+      version: main
+  rviz_embed_test:
+    doc:
+      type: git
+      url: https://github.com/mjeronimo/rviz_embed_test.git
+      version: master
+  rviz_factor_graph_plugins:
+    doc:
+      type: git
+      url: https://github.com/koide3/rviz_factor_graph_plugins.git
+      version: master
+  rviz_plugin_tutorial:
+    doc:
+      type: git
+      url: https://github.com/metrorobots/rviz_plugin_tutorial.git
+      version: main
+  rviz_polygon_selection_tool:
+    doc:
+      type: git
+      url: https://github.com/swri-robotics/rviz_polygon_selection_tool.git
+      version: main
+  rxros2:
+    doc:
+      type: git
+      url: https://github.com/rosin-project/rxros2.git
+      version: master
+  sadg-controller:
+    doc:
+      type: git
+      url: https://github.com/alexberndt/sadg-controller.git
+      version: main
+  sadvio:
+    doc:
+      type: git
+      url: https://github.com/isae-pnx/sadvio.git
+      version: main
+  safe_drive:
+    doc:
+      type: git
+      url: https://github.com/tier4/safe_drive.git
+      version: main
+  sample-apps-for-robotics-platforms:
+    doc:
+      type: git
+      url: https://github.com/quic/sample-apps-for-robotics-platforms.git
+      version: master
+  sarl_star:
+    doc:
+      type: git
+      url: https://github.com/leekeyu/sarl_star.git
+      version: master
+  scan_n_plan_workshop:
+    doc:
+      type: git
+      url: https://github.com/ros-industrial-consortium/scan_n_plan_workshop.git
+      version: master
+  scenario_simulator_v2:
+    doc:
+      type: git
+      url: https://github.com/tier4/scenario_simulator_v2.git
+      version: master
+  schunk_svh_ros_driver:
+    doc:
+      type: git
+      url: https://github.com/schunk-se-co-kg/schunk_svh_ros_driver.git
+      version: ros2
+  sdk-examples:
+    doc:
+      type: git
+      url: https://github.com/spectacularai/sdk-examples.git
+      version: main
+  self-balancing-robot:
+    doc:
+      type: git
+      url: https://github.com/giulioturrisi/self-balancing-robot.git
+      version: master
+  self-driving-and-ros-2-learn-by-doing-map-localization:
+    doc:
+      type: git
+      url: https://github.com/antobrandi/self-driving-and-ros-2-learn-by-doing-map-localization.git
+      version: main
+  self-driving-and-ros-2-learn-by-doing-odometry-control:
+    doc:
+      type: git
+      url: https://github.com/antobrandi/self-driving-and-ros-2-learn-by-doing-odometry-control.git
+      version: main
+  sensors:
+    doc:
+      type: git
+      url: https://github.com/miroboticslab/sensors.git
+      version: rolling
+  sentry_navigation:
+    doc:
+      type: git
+      url: https://github.com/irobot-algorithm/sentry_navigation.git
+      version: main
+  serial_motor_demo:
+    doc:
+      type: git
+      url: https://github.com/joshnewans/serial_motor_demo.git
+      version: main
+  serow:
+    doc:
+      type: git
+      url: https://github.com/mrsp/serow.git
+      version: master
+  sgm_gpu_ros:
+    doc:
+      type: git
+      url: https://github.com/activeintelligentsystemslab/sgm_gpu_ros.git
+      version: master
+  share_ros1_ros2_lib_demo:
+    doc:
+      type: git
+      url: https://github.com/romainreignier/share_ros1_ros2_lib_demo.git
+      version: master
+  sim_bot:
+    doc:
+      type: git
+      url: https://github.com/alexander-levy/sim_bot.git
+      version: humble-new-gazebo
+  sim_car:
+    doc:
+      type: git
+      url: https://github.com/berickson/sim_car.git
+      version: main
+  sim_llm:
+    doc:
+      type: git
+      url: https://github.com/lalafua/sim_llm.git
+      version: main
+  sim_wayp_plan_tools:
+    doc:
+      type: git
+      url: https://github.com/jkk-research/sim_wayp_plan_tools.git
+      version: ros2
+  simenvbenchmark:
+    doc:
+      type: git
+      url: https://github.com/zal/simenvbenchmark.git
+      version: main
+  simp:
+    doc:
+      type: git
+      url: https://github.com/prbonn/simp.git
+      version: master
+  simple-2d-lidar-odometry:
+    doc:
+      type: git
+      url: https://github.com/dawan0111/simple-2d-lidar-odometry.git
+      version: main
+  simple-lio-sam:
+    doc:
+      type: git
+      url: https://github.com/zeal-up/simple-lio-sam.git
+      version: main
+  simros2:
+    doc:
+      type: git
+      url: https://github.com/coppeliarobotics/simros2.git
+      version: master
+  simulation_interfaces:
+    doc:
+      type: git
+      url: https://github.com/ros-simulation/simulation_interfaces.git
+      version: main
+  sitl_models:
+    doc:
+      type: git
+      url: https://github.com/ardupilot/sitl_models.git
+      version: master
+  sjtu_drone:
+    doc:
+      type: git
+      url: https://github.com/novog93/sjtu_drone.git
+      version: ros2
+  sky360:
+    doc:
+      type: git
+      url: https://github.com/sky360-repository/sky360.git
+      version: main
+  slash_ws:
+    doc:
+      type: git
+      url: https://github.com/jialin3/slash_ws.git
+      version: master
+  slicer_ros2_module:
+    doc:
+      type: git
+      url: https://github.com/rosmed/slicer_ros2_module.git
+      version: main
+  slide_slam:
+    doc:
+      type: git
+      url: https://github.com/kumarrobotics/slide_slam.git
+      version: master
+  slim_bridge:
+    doc:
+      type: git
+      url: https://github.com/blackcoffeerobotics/slim_bridge.git
+      version: master
+  sloam:
+    doc:
+      type: git
+      url: https://github.com/kumarrobotics/sloam.git
+      version: main
+  smaademo:
+    doc:
+      type: git
+      url: https://github.com/turol/smaademo.git
+      version: master
+  small_gicp:
+    doc:
+      type: git
+      url: https://github.com/koide3/small_gicp.git
+      version: master
+  smart_vehicle_qualifying_match:
+    doc:
+      type: git
+      url: https://github.com/chenjunnn/smart_vehicle_qualifying_match.git
+      version: main
+  smartmbot:
+    doc:
+      type: git
+      url: https://github.com/smartlab-purdue/smartmbot.git
+      version: main
+  smartmicro_ros2_radars:
+    doc:
+      type: git
+      url: https://github.com/smartmicro/smartmicro_ros2_radars.git
+      version: master
+  smooth:
+    doc:
+      type: git
+      url: https://github.com/pettni/smooth.git
+      version: master
+  smooth_feedback:
+    doc:
+      type: git
+      url: https://github.com/pettni/smooth_feedback.git
+      version: master
+  smw:
+    doc:
+      type: git
+      url: https://github.com/yooouxin/smw.git
+      version: main
+  so-100-arm:
+    doc:
+      type: git
+      url: https://github.com/brukg/so-100-arm.git
+      version: main
+  social_nav2:
+    doc:
+      type: git
+      url: https://github.com/jginesclavero/social_nav2.git
+      version: master
+  soft_illusion:
+    doc:
+      type: git
+      url: https://github.com/harshkakashaniya/soft_illusion.git
+      version: master
+  software-training:
+    doc:
+      type: git
+      url: https://github.com/robojackets/software-training.git
+      version: main
+  software_watchdogs:
+    doc:
+      type: git
+      url: https://github.com/ros-safety/software_watchdogs.git
+      version: main
+  solo:
+    doc:
+      type: git
+      url: https://github.com/open-dynamic-robot-initiative/solo.git
+      version: master
+  space_robotics_bench:
+    doc:
+      type: git
+      url: https://github.com/andrejorsula/space_robotics_bench.git
+      version: main
+  space_station_os:
+    doc:
+      type: git
+      url: https://github.com/space-station-os/space_station_os.git
+      version: main
+  spaceros_gz_demos:
+    doc:
+      type: git
+      url: https://github.com/david-dorf/spaceros_gz_demos.git
+      version: main
+  spdlog_ros:
+    doc:
+      type: git
+      url: https://github.com/facontidavide/spdlog_ros.git
+      version: main
+  spot-it-3d:
+    doc:
+      type: git
+      url: https://github.com/sieniven/spot-it-3d.git
+      version: main
+  spot-mujoco-ros2:
+    doc:
+      type: git
+      url: https://github.com/mindspaceinc/spot-mujoco-ros2.git
+      version: main
+  spot_ros2:
+    doc:
+      type: git
+      url: https://github.com/bdaiinstitute/spot_ros2.git
+      version: main
+  sqlitecpp:
+    doc:
+      type: git
+      url: https://github.com/srombauts/sqlitecpp.git
+      version: master
+  stealth-controller:
+    doc:
+      type: git
+      url: https://github.com/jkirsons/stealth-controller.git
+      version: main
+  steam:
+    doc:
+      type: git
+      url: https://github.com/utiasasrl/steam.git
+      version: master
+  stella_vslam:
+    doc:
+      type: git
+      url: https://github.com/stella-cv/stella_vslam.git
+      version: main
+  stella_vslam_ros:
+    doc:
+      type: git
+      url: https://github.com/stella-cv/stella_vslam_ros.git
+      version: ros2
+  stingray:
+    doc:
+      type: git
+      url: https://github.com/hydronautics-team/stingray.git
+      version: master
+  stm32_micro_ros_setup:
+    doc:
+      type: git
+      url: https://github.com/lfatality/stm32_micro_ros_setup.git
+      version: main
+  stretch_ai:
+    doc:
+      type: git
+      url: https://github.com/hello-robot/stretch_ai.git
+      version: main
+  stretch_ros2:
+    doc:
+      type: git
+      url: https://github.com/hello-robot/stretch_ros2.git
+      version: humble
+  stretch_web_teleop:
+    doc:
+      type: git
+      url: https://github.com/hello-robot/stretch_web_teleop.git
+      version: master
+  stride:
+    doc:
+      type: git
+      url: https://github.com/well-robotics/stride.git
+      version: main
+  suave:
+    doc:
+      type: git
+      url: https://github.com/kas-lab/suave.git
+      version: main
+  super:
+    doc:
+      type: git
+      url: https://github.com/hku-mars/super.git
+      version: master
+  svin:
+    doc:
+      type: git
+      url: https://github.com/autonomousfieldroboticslab/svin.git
+      version: main
+  sw2urdf_ros2:
+    doc:
+      type: git
+      url: https://github.com/xiaoming-sun6/sw2urdf_ros2.git
+      version: master
+  swerve_robot:
+    doc:
+      type: git
+      url: https://github.com/yugmil11/swerve_robot.git
+      version: main
+  sync_gps_lidar_imu_cam:
+    doc:
+      type: git
+      url: https://github.com/nkliuhui/sync_gps_lidar_imu_cam.git
+      version: master
+  t-dt-2024-radar:
+    doc:
+      type: git
+      url: https://github.com/t-dt-algorithm-2024/t-dt-2024-radar.git
+      version: main
+  t-robot:
+    doc:
+      type: git
+      url: https://github.com/tianci8/t-robot.git
+      version: main
+  tabletop-handybot:
+    doc:
+      type: git
+      url: https://github.com/ycheng517/tabletop-handybot.git
+      version: main
+  task_manager:
+    doc:
+      type: git
+      url: https://github.com/karelics/task_manager.git
+      version: main
+  tcan:
+    doc:
+      type: git
+      url: https://github.com/leggedrobotics/tcan.git
+      version: master
+  teaching:
+    doc:
+      type: git
+      url: https://github.com/lcas/teaching.git
+      version: 2425-devel
+  techman_robot_grasp_ros2:
+    doc:
+      type: git
+      url: https://github.com/jufengwu/techman_robot_grasp_ros2.git
+      version: master
+  telegram_ros2:
+    doc:
+      type: git
+      url: https://github.com/loyvanbeek/telegram_ros2.git
+      version: master
+  tello-ros2:
+    doc:
+      type: git
+      url: https://github.com/tentone/tello-ros2.git
+      version: main
+  tello-ros2-gazebo:
+    doc:
+      type: git
+      url: https://github.com/tiers/tello-ros2-gazebo.git
+      version: master
+  theta_driver:
+    doc:
+      type: git
+      url: https://github.com/stella-cv/theta_driver.git
+      version: ros2
+  tier4_autoware_msgs:
+    doc:
+      type: git
+      url: https://github.com/tier4/tier4_autoware_msgs.git
+      version: tier4/universe
+  tmr_ros2:
+    doc:
+      type: git
+      url: https://github.com/techmanrobotinc/tmr_ros2.git
+      version: foxy
+  topnode:
+    doc:
+      type: git
+      url: https://github.com/safe-ros/topnode.git
+      version: main
+  topological_navigation:
+    doc:
+      type: git
+      url: https://github.com/lcas/topological_navigation.git
+      version: humble-dev
+  torcs_ros:
+    doc:
+      type: git
+      url: https://github.com/fmirus/torcs_ros.git
+      version: main
+  tortoisebot:
+    doc:
+      type: git
+      url: https://github.com/rigbetellabs/tortoisebot.git
+      version: ros2-humble
+  touch-gs:
+    doc:
+      type: git
+      url: https://github.com/armlabstanford/touch-gs.git
+      version: main
+  toy_threads:
+    doc:
+      type: git
+      url: https://github.com/dlu/toy_threads.git
+      version: main
+  tracking_pid:
+    doc:
+      type: git
+      url: https://github.com/nobleo/tracking_pid.git
+      version: master
+  tracktor-beam:
+    doc:
+      type: git
+      url: https://github.com/ark-electronics/tracktor-beam.git
+      version: main
+  trajgen:
+    doc:
+      type: git
+      url: https://github.com/gaoyinfeng/trajgen.git
+      version: main
+  ttennis-pickup-robot:
+    doc:
+      type: git
+      url: https://github.com/pomelo925/ttennis-pickup-robot.git
+      version: main
+  tudelft_hackathon:
+    doc:
+      type: git
+      url: https://github.com/remaro-network/tudelft_hackathon.git
+      version: ros2
+  tue_robocup:
+    doc:
+      type: git
+      url: https://github.com/tue-robotics/tue_robocup.git
+      version: master
+  tup-vision-2023-based:
+    doc:
+      type: git
+      url: https://github.com/tup-robomaster/tup-vision-2023-based.git
+      version: main
+  tup2023-sentry-nav:
+    doc:
+      type: git
+      url: https://github.com/tup-robomaster/tup2023-sentry-nav.git
+      version: lio_WIP
+  turtlebot3:
+    doc:
+      type: git
+      url: https://github.com/tinker-twins/turtlebot3.git
+      version: ROS2-Foxy
+  turtlebot3_demo:
+    doc:
+      type: git
+      url: https://github.com/ros-swg/turtlebot3_demo.git
+      version: master
+  turtlebot3_drlnav:
+    doc:
+      type: git
+      url: https://github.com/tomasvr/turtlebot3_drlnav.git
+      version: main
+  turtlebot4lessons:
+    doc:
+      type: git
+      url: https://github.com/turtlebot/turtlebot4lessons.git
+      version: main
+  turtlesim-sketch:
+    doc:
+      type: git
+      url: https://github.com/shilpaj1994/turtlesim-sketch.git
+      version: master
+  tutorials:
+    doc:
+      type: git
+      url: https://github.com/ros2/tutorials.git
+      version: master
+  two_wheeled_robot:
+    doc:
+      type: git
+      url: https://github.com/automaticaddison/two_wheeled_robot.git
+      version: main
+  uav-digital-twin:
+    doc:
+      type: git
+      url: https://github.com/michaelkapteyn/uav-digital-twin.git
+      version: master
+  uav-ugv-target-search:
+    doc:
+      type: git
+      url: https://github.com/lh9171338/uav-ugv-target-search.git
+      version: master
+  uav_simulator:
+    doc:
+      type: git
+      url: https://github.com/fdcl-gwu/uav_simulator.git
+      version: main
+  uavprojectilecatcher:
+    doc:
+      type: git
+      url: https://github.com/arijitnoobstar/uavprojectilecatcher.git
+      version: master
+  ubr_reloaded:
+    doc:
+      type: git
+      url: https://github.com/mikeferguson/ubr_reloaded.git
+      version: ros2
+  ugv_sdk:
+    doc:
+      type: git
+      url: https://github.com/westonrobot/ugv_sdk.git
+      version: main
+  ugv_ws:
+    doc:
+      type: git
+      url: https://github.com/waveshareteam/ugv_ws.git
+      version: ros2-humble-develop
+  ultimate-robotics-programming-with-ros2-and-python:
+    doc:
+      type: git
+      url: https://github.com/ava-orange-education/ultimate-robotics-programming-with-ros2-and-python.git
+      version: main
+  um982driver:
+    doc:
+      type: git
+      url: https://github.com/sunshineharry/um982driver.git
+      version: master
+  umi-on-legs:
+    doc:
+      type: git
+      url: https://github.com/real-stanford/umi-on-legs.git
+      version: main
+  underactuated:
+    doc:
+      type: git
+      url: https://github.com/russtedrake/underactuated.git
+      version: master
+  unilidar_sdk:
+    doc:
+      type: git
+      url: https://github.com/unitreerobotics/unilidar_sdk.git
+      version: main
+  unilidar_sdk2:
+    doc:
+      type: git
+      url: https://github.com/unitreerobotics/unilidar_sdk2.git
+      version: main
+  unimore_roboracer:
+    doc:
+      type: git
+      url: https://github.com/hipert/unimore_roboracer.git
+      version: master
+  unitree-go2-ros2:
+    doc:
+      type: git
+      url: https://github.com/anujjain-dev/unitree-go2-ros2.git
+      version: humble
+  unitree-go2-slam-nav2:
+    doc:
+      type: git
+      url: https://github.com/h-naderi/unitree-go2-slam-nav2.git
+      version: main
+  unitree_inspection:
+    doc:
+      type: git
+      url: https://github.com/ngmor/unitree_inspection.git
+      version: main
+  unitree_nav:
+    doc:
+      type: git
+      url: https://github.com/ngmor/unitree_nav.git
+      version: main
+  unitree_ros2:
+    doc:
+      type: git
+      url: https://github.com/mayataka/unitree_ros2.git
+      version: main
+  unitree_ros2_sim:
+    doc:
+      type: git
+      url: https://github.com/atharva-05/unitree_ros2_sim.git
+      version: main
+  unityros2:
+    doc:
+      type: git
+      url: https://github.com/dynorobotics/unityros2.git
+      version: master
+  universal_robot_ign:
+    doc:
+      type: git
+      url: https://github.com/gezp/universal_robot_ign.git
+      version: main
+  universelan:
+    doc:
+      type: git
+      url: https://github.com/grasmanek94/universelan.git
+      version: master
+  ur-mir-mobile-manipulator:
+    doc:
+      type: git
+      url: https://github.com/spartan-velanjeri/ur-mir-mobile-manipulator.git
+      version: main
+  ur-reaching-reinforcement-learning:
+    doc:
+      type: git
+      url: https://github.com/geonhee-lee/ur-reaching-reinforcement-learning.git
+      version: master
+  ur10e_welding_demo:
+    doc:
+      type: git
+      url: https://github.com/picknikrobotics/ur10e_welding_demo.git
+      version: master
+  ur5_easyhandeye_d435i_calibration:
+    doc:
+      type: git
+      url: https://github.com/lochinasc1017/ur5_easyhandeye_d435i_calibration.git
+      version: master
+  ur5_isaac_simulation:
+    doc:
+      type: git
+      url: https://github.com/caiobarrosv/ur5_isaac_simulation.git
+      version: main
+  ur5e_simulation_and_dual_arm_control:
+    doc:
+      type: git
+      url: https://github.com/evacheung0929/ur5e_simulation_and_dual_arm_control.git
+      version: main
+  ur5e_vision_assemble:
+    doc:
+      type: git
+      url: https://github.com/zitongbai/ur5e_vision_assemble.git
+      version: main
+  ur_isaac-sim:
+    doc:
+      type: git
+      url: https://github.com/dark404/ur_isaac-sim.git
+      version: main
+  ur_project_ros2:
+    doc:
+      type: git
+      url: https://github.com/zitongbai/ur_project_ros2.git
+      version: main
+  ur_ros_rtde:
+    doc:
+      type: git
+      url: https://github.com/superdiodo/ur_ros_rtde.git
+      version: main
+  ur_ws:
+    doc:
+      type: git
+      url: https://github.com/borninfreedom/ur_ws.git
+      version: master
+  urdf_to_dh:
+    doc:
+      type: git
+      url: https://github.com/mcevoyandy/urdf_to_dh.git
+      version: main
+  uwrt_mars_rover:
+    doc:
+      type: git
+      url: https://github.com/uwrobotics/uwrt_mars_rover.git
+      version: master
+  v2x:
+    doc:
+      type: git
+      url: https://github.com/libv2x/v2x.git
+      version: master
+  vacuumcleaner:
+    doc:
+      type: git
+      url: https://github.com/williamnagels/vacuumcleaner.git
+      version: master
+  vanttec_usv:
+    doc:
+      type: git
+      url: https://github.com/vanttec/vanttec_usv.git
+      version: develop
+  variable-height-double-pendulum:
+    doc:
+      type: git
+      url: https://github.com/s-dafarra/variable-height-double-pendulum.git
+      version: master
+  vehicle_gateway:
+    doc:
+      type: git
+      url: https://github.com/osrf/vehicle_gateway.git
+      version: main
+  vehicle_ros_driver_generator:
+    doc:
+      type: git
+      url: https://github.com/pixmoving-moveit/vehicle_ros_driver_generator.git
+      version: main
+  vidusdk:
+    doc:
+      type: git
+      url: https://github.com/point-spread/vidusdk.git
+      version: main
+  vins-fusion-ros2:
+    doc:
+      type: git
+      url: https://github.com/zinuok/vins-fusion-ros2.git
+      version: main
+  vins-mono-ros2:
+    doc:
+      type: git
+      url: https://github.com/dongbo19/vins-mono-ros2.git
+      version: main
+  virtual_maize_field:
+    doc:
+      type: git
+      url: https://github.com/fieldrobotevent/virtual_maize_field.git
+      version: ros2-gz
+  vision_msgs_rviz_plugins:
+    doc:
+      type: git
+      url: https://github.com/novog93/vision_msgs_rviz_plugins.git
+      version: humble
+  vispa:
+    doc:
+      type: git
+      url: https://github.com/airbusdefenceandspace/vispa.git
+      version: main
+  visual_robot_localization:
+    doc:
+      type: git
+      url: https://github.com/lasuomela/visual_robot_localization.git
+      version: main
+  visualservoing:
+    doc:
+      type: git
+      url: https://github.com/paulrupprecht/visualservoing.git
+      version: master
+  viz_3dbbox_ros2_pointpillars:
+    doc:
+      type: git
+      url: https://github.com/nvidia-ai-iot/viz_3dbbox_ros2_pointpillars.git
+      version: main
+  vl_softwareprojektrobotik:
+    doc:
+      type: git
+      url: https://github.com/tubaf-ifi-liascript/vl_softwareprojektrobotik.git
+      version: master
+  vnav-labs:
+    doc:
+      type: git
+      url: https://github.com/mit-spark/vnav-labs.git
+      version: main
+  voicevox_ros2:
+    doc:
+      type: git
+      url: https://github.com/tutrobo/voicevox_ros2.git
+      version: master
+  vortex-auv:
+    doc:
+      type: git
+      url: https://github.com/vortexntnu/vortex-auv.git
+      version: main
+  vox_nav:
+    doc:
+      type: git
+      url: https://github.com/nmburobotics/vox_nav.git
+      version: humble
+  vslam:
+    doc:
+      type: git
+      url: https://github.com/mrwangmaomao/vslam.git
+      version: master
+  vsomeip-ros-bridge:
+    doc:
+      type: git
+      url: https://github.com/miketsukerman/vsomeip-ros-bridge.git
+      version: master
+  vtr3:
+    doc:
+      type: git
+      url: https://github.com/utiasasrl/vtr3.git
+      version: main
+  vulcanexus:
+    doc:
+      type: git
+      url: https://github.com/eprosima/vulcanexus.git
+      version: main
+  wamv_gz:
+    doc:
+      type: git
+      url: https://github.com/david-dorf/wamv_gz.git
+      version: main
+  wato_asd_training:
+    doc:
+      type: git
+      url: https://github.com/watonomous/wato_asd_training.git
+      version: main
+  wato_monorepo:
+    doc:
+      type: git
+      url: https://github.com/watonomous/wato_monorepo.git
+      version: main
+  wayp_plan_tools:
+    doc:
+      type: git
+      url: https://github.com/jkk-research/wayp_plan_tools.git
+      version: ros2
+  wb_humanoid_mpc:
+    doc:
+      type: git
+      url: https://github.com/manumerous/wb_humanoid_mpc.git
+      version: main
+  webots_ros2_spot:
+    doc:
+      type: git
+      url: https://github.com/maskor/webots_ros2_spot.git
+      version: main
+  week-1-2-introduction-to-ros2:
+    doc:
+      type: git
+      url: https://github.com/mogi-ros/week-1-2-introduction-to-ros2.git
+      version: main
+  week-1-8-cognitive-robotics:
+    doc:
+      type: git
+      url: https://github.com/mogi-ros/week-1-8-cognitive-robotics.git
+      version: main
+  week-3-4-gazebo-basics:
+    doc:
+      type: git
+      url: https://github.com/mogi-ros/week-3-4-gazebo-basics.git
+      version: main
+  week-5-6-gazebo-sensors:
+    doc:
+      type: git
+      url: https://github.com/mogi-ros/week-5-6-gazebo-sensors.git
+      version: main
+  week-7-8-ros2-navigation:
+    doc:
+      type: git
+      url: https://github.com/mogi-ros/week-7-8-ros2-navigation.git
+      version: main
+  whisper_ros:
+    doc:
+      type: git
+      url: https://github.com/ouxt-polaris/whisper_ros.git
+      version: master
+  wiln:
+    doc:
+      type: git
+      url: https://github.com/norlab-ulaval/wiln.git
+      version: humble
+  wpr_simulation2:
+    doc:
+      type: git
+      url: https://github.com/6-robot/wpr_simulation2.git
+      version: main
+  x-mobility:
+    doc:
+      type: git
+      url: https://github.com/nvlabs/x-mobility.git
+      version: main
+  xarm_ros2:
+    doc:
+      type: git
+      url: https://github.com/xarm-developer/xarm_ros2.git
+      version: humble
+  xju-autopilot:
+    doc:
+      type: git
+      url: https://github.com/mr-tony921/xju-autopilot.git
+      version: main
+  yahboom_rosmaster:
+    doc:
+      type: git
+      url: https://github.com/automaticaddison/yahboom_rosmaster.git
+      version: main
+  yaml_cpp_struct:
+    doc:
+      type: git
+      url: https://github.com/fantasy-peak/yaml_cpp_struct.git
+      version: main
+  ylo-2:
+    doc:
+      type: git
+      url: https://github.com/elpimous/ylo-2.git
+      version: main
+  yolact_ros_3d:
+    doc:
+      type: git
+      url: https://github.com/intelligentroboticslabs/yolact_ros_3d.git
+      version: master
+  yolo_ros:
+    doc:
+      type: git
+      url: https://github.com/mgonzs13/yolo_ros.git
+      version: main
+  yolov5-ros:
+    doc:
+      type: git
+      url: https://github.com/ar-ray-code/yolov5-ros.git
+      version: main
+  yolov5-tensorrt-ros2:
+    doc:
+      type: git
+      url: https://github.com/uglymie/yolov5-tensorrt-ros2.git
+      version: master
+  yolov5-with-isaac-ros:
+    doc:
+      type: git
+      url: https://github.com/nvidia-ai-iot/yolov5-with-isaac-ros.git
+      version: main
+  yolov5_ros2:
+    doc:
+      type: git
+      url: https://github.com/fishros/yolov5_ros2.git
+      version: main
+  yolov8_ros2:
+    doc:
+      type: git
+      url: https://github.com/andreashovaldt/yolov8_ros2.git
+      version: humble
+  yolov_ros2:
+    doc:
+      type: git
+      url: https://github.com/fishros/yolov_ros2.git
+      version: master
+  yolox-ros:
+    doc:
+      type: git
+      url: https://github.com/ar-ray-code/yolox-ros.git
+      version: jazzy
+  youfork:
+    doc:
+      type: git
+      url: https://github.com/youtalk/youfork.git
+      version: master
+  zed-ros2-examples:
+    doc:
+      type: git
+      url: https://github.com/stereolabs/zed-ros2-examples.git
+      version: master
+  zed-ros2-wrapper:
+    doc:
+      type: git
+      url: https://github.com/stereolabs/zed-ros2-wrapper.git
+      version: master
+  zenoh-plugin-ros2dds:
+    doc:
+      type: git
+      url: https://github.com/eclipse-zenoh/zenoh-plugin-ros2dds.git
+      version: main
+  zephyr_apps:
+    doc:
+      type: git
+      url: https://github.com/micro-ros/zephyr_apps.git
+      version: jazzy
+  zinger_swerve_controller:
+    doc:
+      type: git
+      url: https://github.com/pvandervelde/zinger_swerve_controller.git
+      version: master
+  zm_robot:
+    doc:
+      type: git
+      url: https://github.com/qaz9517532846/zm_robot.git
+      version: ros2-jazzy
+  zuko:
+    doc:
+      type: git
+      url: https://github.com/reubenstr/zuko.git
+      version: main
+type: distribution
+version: 2

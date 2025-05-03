@@ -43,7 +43,10 @@ def main(args=None):
     os.makedirs(output_dir, exist_ok=True)
 
     index = get_index(get_index_url())
-    repositories = get_extended_distribution_cache(index, config, logger=logger)
+    if config.distro == 'github':
+        repositories = get_local_repositories(config)
+    else:
+        repositories = get_extended_distribution_cache(index, config, logger=logger)
     existing_directories = os.listdir(output_dir)
     if '_release' in existing_directories:
         existing_directories.remove('_release')
@@ -166,6 +169,28 @@ def read_cfg_file(fname):
     except (IOError, KeyError, yaml.YAMLError):
         return None
 
+def get_local_repositories(config):
+    local_path = os.path.join('github', 'distribution.yaml')
+    with open(local_path, 'r') as f:
+        data = yaml.safe_load(f)
+    print(data.keys())
+    repositories = data['repositories']
+
+    # Limit length of repositories, mostly a debug features
+    if config and config.max_repos >= 0:
+        if logger:
+            logger.info(f'Limiting cloned repos count to {config.max_repos}')
+        limited_repositories = {}
+        count = 0
+
+        for key in repositories.keys():
+            limited_repositories[key] = repositories[key]
+            count += 1
+            if count >= config.max_repos:
+                break
+        repositories = limited_repositories
+
+    return repositories
 
 def get_extended_distribution_cache(index, config, logger=None):
     yaml_str = get_distribution_cache_string(index, config.distro)
