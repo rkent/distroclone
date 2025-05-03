@@ -117,6 +117,7 @@ def get_parser():
     parser.add_argument('-p', '--path', help='path to output repos to', default='rosdistro')
     parser.add_argument('-c', '--config_file', help='config file name (config.yaml)', default=None)
     parser.add_argument('-m', '--max-repos', type=int, help='Maximum repos to clone, -1 for no limit', default=-1)
+    parser.add_argument('-g', '--github_path', help='Path to directory with github distribution.yaml', default='github')
 
     '''
     Example config.yaml:
@@ -171,7 +172,7 @@ def read_cfg_file(fname):
 
 def get_local_repositories(config):
     print(f'Current working directory is {os.getcwd()}')
-    local_path = os.path.join('github', 'distribution.yaml')
+    local_path = os.path.join(config.github_path, 'distribution.yaml')
     with open(local_path, 'r') as f:
         data = yaml.safe_load(f)
     print(data.keys())
