@@ -170,6 +170,7 @@ def read_cfg_file(fname):
         return None
 
 def get_local_repositories(config):
+    print(f'Current working directory is {os.getcwd()}')
     local_path = os.path.join('github', 'distribution.yaml')
     with open(local_path, 'r') as f:
         data = yaml.safe_load(f)
