@@ -1520,11 +1520,11 @@ repositories:
       type: git
       url: https://github.com/mpetersen94/gcs.git
       version: main
-  gcs-science-robotics:
-    doc:
-      type: git
-      url: https://github.com/robotlocomotion/gcs-science-robotics.git
-      version: main
+  #gcs-science-robotics:
+  #  doc:
+  #    type: git
+  #    url: https://github.com/robotlocomotion/gcs-science-robotics.git
+  #    version: main
   genmos_object_search:
     doc:
       type: git
